@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 4df537d58a8984190b89198c656fff89
+timeCreated: 1517948032
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000150000001600000017000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 6bf604de70c3aee2565f62e8bd84930e
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 3.481249, y: 2.400881, z: 1.7434282}
+      lookAt: {x: -5.0748315, y: -1.9391499, z: -2.0699563}
+      up: {x: -0.38397366, y: 0.90734625, z: -0.17113435}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 20170418 - Internal Door Bottom Trimming
+    100002: 20170418 - Internal Door Door#3
+    100004: 20170418 - Internal Door Handle
+    100006: 20170418 - Internal Door Hinge
+    100008: 20170418 - Internal Door Hinge 1
+    100010: 20170418 - Internal Door Hinge Door Inside Partsh
+    100012: 20170418 - Internal Door Hinge Door Inside Partsh 1
+    100014: 20170418 - Internal Door Hinge Door Inside Partsh 2
+    100016: 20170418 - Internal Door Hinge Door Inside Partsh 3
+    100018: 20170418 - Internal Door Keyhole#1
+    100020: 20170418 - Internal Door Look & Handle Internal Part
+    100022: //RootNode
+    100024: Window Plane#1
+    400000: 20170418 - Internal Door Bottom Trimming
+    400002: 20170418 - Internal Door Door#3
+    400004: 20170418 - Internal Door Handle
+    400006: 20170418 - Internal Door Hinge
+    400008: 20170418 - Internal Door Hinge 1
+    400010: 20170418 - Internal Door Hinge Door Inside Partsh
+    400012: 20170418 - Internal Door Hinge Door Inside Partsh 1
+    400014: 20170418 - Internal Door Hinge Door Inside Partsh 2
+    400016: 20170418 - Internal Door Hinge Door Inside Partsh 3
+    400018: 20170418 - Internal Door Keyhole#1
+    400020: 20170418 - Internal Door Look & Handle Internal Part
+    400022: //RootNode
+    400024: Window Plane#1
+    2100000: _defaultMat
+    2100002: 20170418 Inside Keyhole colour
+    2100004: 20170418 - Internal Door Gold Dark
+    2100006: 20170418 - Internal Door Gold Light
+    2100008: 20170416 - Glass Center Seal
+    2100010: 20170417 - Glass
+    2100012: 20170417 - Glass Edge
+    2300000: 20170418 - Internal Door Bottom Trimming
+    2300002: 20170418 - Internal Door Door#3
+    2300004: 20170418 - Internal Door Handle
+    2300006: 20170418 - Internal Door Hinge Door Inside Partsh
+    2300008: 20170418 - Internal Door Hinge Door Inside Partsh 1
+    2300010: 20170418 - Internal Door Hinge Door Inside Partsh 2
+    2300012: 20170418 - Internal Door Hinge Door Inside Partsh 3
+    2300014: 20170418 - Internal Door Keyhole#1
+    2300016: 20170418 - Internal Door Look & Handle Internal Part
+    2300018: //RootNode
+    2300020: Window Plane#1
+    3300000: 20170418 - Internal Door Bottom Trimming
+    3300002: 20170418 - Internal Door Door#3
+    3300004: 20170418 - Internal Door Handle
+    3300006: 20170418 - Internal Door Hinge Door Inside Partsh
+    3300008: 20170418 - Internal Door Hinge Door Inside Partsh 1
+    3300010: 20170418 - Internal Door Hinge Door Inside Partsh 2
+    3300012: 20170418 - Internal Door Hinge Door Inside Partsh 3
+    3300014: 20170418 - Internal Door Keyhole#1
+    3300016: 20170418 - Internal Door Look & Handle Internal Part
+    3300018: //RootNode
+    3300020: Window Plane#1
+    4300000: Mesh 20170418 - External Back Door 30 cm Wall with inside lock
+    4300002: Mesh 20170418 - Internal Door Door#3
+    4300004: Mesh 20170418 - Internal Door Look & Handle Internal Part
+    4300006: Mesh 20170418 - Internal Door Hinge Door Inside Partsh
+    4300008: Mesh 20170418 - Internal Door Keyhole#1
+    4300010: Mesh 20170418 - Internal Door Handle
+    4300012: Mesh Window Plane#1
+    4300014: Mesh 20170418 - Internal Door Bottom Trimming
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
