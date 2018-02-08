@@ -10,4 +10,7 @@ EditorBuildSettings:
     guid: 8456a265fc3184d34a1fb6512ec016eb
   - enabled: 1
     path: Assets/Scenes/SafeSpace.unity
-    guid: 2ba790aba94b245c3897d6d2c271c4a8
+    guid: ff6bbae0d3e1d46b8847659eeda0fd4e
+  - enabled: 1
+    path: Assets/Scenes/ScarySpace.unity
+    guid: 4c7325d7a4dcd48aab71daee1a51e5a3
