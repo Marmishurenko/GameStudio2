@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Intro.unity
     guid: 8456a265fc3184d34a1fb6512ec016eb
   - enabled: 1
     path: Assets/Scenes/SafeSpace.unity
     guid: ff6bbae0d3e1d46b8847659eeda0fd4e
   - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: d2e2701ea48e645df9b9c0812cf297f4
+  - enabled: 0
     path: Assets/Scenes/ScarySpace.unity
     guid: 4c7325d7a4dcd48aab71daee1a51e5a3
