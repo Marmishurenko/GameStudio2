@@ -17,6 +17,7 @@ public class restart : MonoBehaviour {
 	}
 
 	public void Restart(){
+		
 		SceneManager.LoadScene ("SafeSpace");
 		
 	}
