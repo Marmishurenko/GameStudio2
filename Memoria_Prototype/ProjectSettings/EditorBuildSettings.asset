@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WeekStart.unity
+    guid: fc489a003482a3e4494333abb7090cbb
+  - enabled: 1
+    path: Assets/Scenes/main.unity
+    guid: 2c3ba838d54414541981d0f66928d619
+  - enabled: 1
+    path: Assets/Scenes/Resume.unity
+    guid: 5a868c7d8779856439dd0beaef7bec81
+  - enabled: 1
+    path: Assets/Scenes/Shopping.unity
+    guid: 03db67978dbd20e4b84af4670d1e6e93
+  - enabled: 1
+    path: Assets/Scenes/Shopping2.unity
+    guid: 071535da19b721742b5a6abf37bef9ff
+  - enabled: 1
+    path: Assets/Scenes/Texting.unity
+    guid: 4197831f4cfd2a941bfe796efc41daf8
