@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
 	public int health = 0;
 	public float time = 0;
 	public int bestHealth;
+	public string sceneName;
 
 
 
@@ -40,7 +41,7 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		
 		time++;
-		if (time == 100) {
+		if (time == 200) {
 			EndGame ();
 		}
 
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour {
 				PlayerPrefs.Save ();
 			}
 		time = 0f;
-		SceneManager.LoadScene("SafeSpace");
+		SceneManager.LoadScene(sceneName);
 
 
 
