@@ -12,13 +12,13 @@ public class TypingController : MonoBehaviour {
     Text uiText;
     float inputCounter = 0;
 
-    void Start () {
+    void Start() {
         uiText = gameObject.GetComponent<Text>();
         uiText.text = "";
-	}
-	
-	void Update () {
-        for (int i = 0; i< 26; i++) {
+    }
+
+    void Update() {
+        for (int i = 0; i < 26; i++) {
             if (text.Length == 0)
                 break;
             if (Input.GetKeyDown(KeyCode.A + i)) {
@@ -37,5 +37,5 @@ public class TypingController : MonoBehaviour {
                 }
             }
         }
-	}
+    }
 }
