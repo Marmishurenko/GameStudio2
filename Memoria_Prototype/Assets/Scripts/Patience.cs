@@ -6,35 +6,41 @@ using UnityEngine.UI;
 
 public class Patience : MonoBehaviour {
 
+    public Color[] colors;
+    int[] patienceList = { 12, 10, 8, 4, 2, 2, 1, 0 };
+    int totalPatience;
     public int patience;
-    int[] patienceList = { 15, 10, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
 
     void Start() {
         int week = GameObject.Find("GameManager").GetComponent<GameManager>().week - 1;
         if (week < patienceList.Length)
-            patience = patienceList[week];
+            totalPatience = patienceList[week];
         else
-            patience = patienceList[patienceList.Length - 1];
-        GameObject.Find("Bottles").transform.GetChild(Random.Range(1, 14)).GetComponent<Bottle>().labelIndex = 0;
-        gameObject.GetComponent<Text>().text = "Patience " + patience.ToString();
-    }
-
-    void Update() {
+            totalPatience = patienceList[patienceList.Length - 1];
+        patience = totalPatience;
+        SetColor();
+        GameObject.Find("Bottles").transform.GetChild(Random.Range(0, 10)).GetComponent<Bottle>().labelIndex = 0;
     }
 
     public void Check() {
         patience--;
-        gameObject.GetComponent<Text>().text = "Patience " + patience.ToString();
+        SetColor();
+    }
+
+    void SetColor() {
+        transform.GetChild(0).GetComponent<SpriteRenderer>().color = colors[Mathf.CeilToInt((float)patience / totalPatience * 3)];
     }
 
     public void Shake() {
         StartCoroutine("ShakeCoroutine");
     }
+
     IEnumerator ShakeCoroutine() {
         float startTime = Time.time;
         Vector3 originalPos = transform.localPosition;
         while (Time.time - startTime < 0.2) {
-            float range = 6;
+            int level = (4 - Mathf.CeilToInt((float)patience / totalPatience * 3));     // 1-4
+            float range = level * level * 0.4f + 2f;
             transform.localPosition = originalPos + new Vector3(Random.Range(-range, range), Random.Range(-range, range));
             yield return null;
         }

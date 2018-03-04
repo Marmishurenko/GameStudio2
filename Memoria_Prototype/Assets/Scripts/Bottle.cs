@@ -10,21 +10,17 @@ public class Bottle : MonoBehaviour, IPointerClickHandler {
     [SerializeField] Vector3 HAND_POSITION;
     [SerializeField] Vector3 HAND_SCALE;
     [SerializeField] Sprite[] labels;
-    [SerializeField] Sprite labelEmpty;
     public int labelIndex;
 
     int state = 0;
     static bool pickUpLock = false;
-    float[] similarityList = { 100, 90, 80, 60, 40, 20 };
-    Text similarityText;
     Vector3 originalPos;
     Vector3 originalScale;
 
     void Start() {
-        similarityText = GameObject.Find("Similarity").GetComponent<Text>();
         originalPos = transform.localPosition;
         originalScale = transform.localScale;
-        labelIndex = Random.Range(1, 6);
+        labelIndex = Random.Range(1, 3);
     }
 
     void Update() {
@@ -32,19 +28,18 @@ public class Bottle : MonoBehaviour, IPointerClickHandler {
             // Put back
             state = 1;
             StartCoroutine("Moving", false);
-            transform.GetChild(0).gameObject.GetComponent<Image>().sprite = labelEmpty;
-            similarityText.enabled = false;
+            //transform.GetChild(0).gameObject.GetComponent<Image>().sprite = labelEmpty;
         }
     }
 
     public void OnPointerClick(PointerEventData eventData) {
         if (state == 0 && pickUpLock == false) {
             if (eventData.button == PointerEventData.InputButton.Left) {
+                transform.GetChild(1).gameObject.GetComponent<Image>().sprite = labels[labelIndex];
+                GameObject.Find("Patience").GetComponent<Patience>().Shake();
                 // Run out of patience
-                if (GameObject.Find("Patience").GetComponent<Patience>().patience == 0) {
-                    GameObject.Find("Patience").GetComponent<Patience>().Shake();
+                if (GameObject.Find("Patience").GetComponent<Patience>().patience == 0)
                     return;
-                }
                 // Take out
                 state = 1;
                 pickUpLock = true;
@@ -53,13 +48,15 @@ public class Bottle : MonoBehaviour, IPointerClickHandler {
                 GameObject.Find("Patience").GetComponent<Patience>().Check();
             } else if (eventData.button == PointerEventData.InputButton.Right) {
                 // Pick
-                GameObject.Find("GameManager").GetComponent<GameManager>().NextPhase();
+                pickUpLock = false;
+                GameObject.Find("Grandaunt").GetComponent<Grandaunt>().TurnOn(labelIndex);
             }
         } else if (state == 2) {
             if (eventData.button == PointerEventData.InputButton.Right) {
+                Debug.Log("");
                 // Pick
                 pickUpLock = false;
-                GameObject.Find("GameManager").GetComponent<GameManager>().NextPhase();
+                GameObject.Find("Grandaunt").GetComponent<Grandaunt>().TurnOn(labelIndex);
             }
         }
     }
@@ -71,9 +68,11 @@ public class Bottle : MonoBehaviour, IPointerClickHandler {
             if (toHand) {
                 transform.localPosition = Vector3.Lerp(originalPos, HAND_POSITION, (Time.time - startTime) / time);
                 transform.localScale = Vector3.Lerp(originalScale, HAND_SCALE, (Time.time - startTime) / time);
+                SetColor((Time.time - startTime) / time);
             } else {
                 transform.localPosition = Vector3.Lerp(HAND_POSITION, originalPos, (Time.time - startTime) / time);
                 transform.localScale = Vector3.Lerp(HAND_SCALE, originalScale, (Time.time - startTime) / time);
+                SetColor(1 - (Time.time - startTime) / time * 0.7f);
             }
             if (Time.time - startTime >= time)
                 break;
@@ -81,13 +80,16 @@ public class Bottle : MonoBehaviour, IPointerClickHandler {
         }
         if (toHand) {
             state = 2;
-            transform.GetChild(0).gameObject.GetComponent<Image>().sprite = labels[labelIndex];
-            similarityText.enabled = true;
-            similarityText.text = "Similarity\n" + similarityList[labelIndex].ToString() + "%";
         } else {
             state = 0;
             pickUpLock = false;
             transform.SetAsFirstSibling();
         }
+    }
+
+    void SetColor(float a) {
+        Color c = transform.GetChild(1).gameObject.GetComponent<Image>().color;
+        c.a = a;
+        transform.GetChild(1).gameObject.GetComponent<Image>().color = c;
     }
 }

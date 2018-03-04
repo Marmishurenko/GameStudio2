@@ -28,7 +28,11 @@ public class Home : MonoBehaviour {
 
 
     public void OnClick() {
-        if (flashing)
-            GameObject.Find("GameManager").GetComponent<GameManager>().NextPhase();
+        if (flashing) {
+            if (GameObject.Find("GameManager").GetComponent<GameManager>().week < 7)
+                GameObject.Find("GameManager").GetComponent<GameManager>().NextPhase();
+            else
+                GameObject.Find("BlackScreen").GetComponent<Image>().enabled = true;
+        }
     }
 }

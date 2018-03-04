@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour {
 
     IEnumerator Pause() {
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene("Texting");
-        //SceneManager.LoadScene("Shopping2");
+        //SceneManager.LoadScene("Texting");
+        SceneManager.LoadScene("Shopping2");
     }
 }
