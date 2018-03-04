@@ -12,28 +12,17 @@ public class Home : MonoBehaviour {
     }
 
     void Update() {
-        Color c = gameObject.GetComponent<Image>().color;
-        if (flashing)
-            c.a = 1;
-        else
-            c.a = 0;
-        gameObject.GetComponent<Image>().color = c;
-        return;
-
         if (flashing == false)
             return;
 
         timer -= Time.deltaTime;
-        if (timer > 0)
-            return;
-
-        timer = 0.7f;
-        c = gameObject.GetComponent<Image>().color;
-        if (c.a > 15f / 255)
-            c.a = 0;
-        else
-            c.a = 33f / 255;
+        float period = 2.5f;
+        Color c = gameObject.GetComponent<Image>().color;
+        c.a = (Mathf.Sin((period - timer) / period * Mathf.PI * 2) + 1) * 0.5f * 0.8f + 0.2f;
         gameObject.GetComponent<Image>().color = c;
+
+        if (timer <= 0)
+            timer = period;
     }
 
 
