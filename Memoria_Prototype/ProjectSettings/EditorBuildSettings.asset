@@ -20,6 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shopping2.unity
     guid: 071535da19b721742b5a6abf37bef9ff
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Texting.unity
     guid: 4197831f4cfd2a941bfe796efc41daf8

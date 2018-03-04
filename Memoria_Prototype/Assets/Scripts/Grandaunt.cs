@@ -15,7 +15,7 @@ public class Grandaunt : MonoBehaviour {
     }
 
     IEnumerator ShowText(int type) {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.2f);
         switch (type) {
             case 0:
                 transform.GetChild(0).GetComponent<Text>().text = "\"Thank you! I love you.\"";
@@ -27,7 +27,7 @@ public class Grandaunt : MonoBehaviour {
                 transform.GetChild(0).GetComponent<Text>().text = "\"Thank you, but you can have it love.\"";
                 break;
         }
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(2.5f);
         transform.GetChild(0).GetComponent<Text>().text = "";
         yield return new WaitForSeconds(1);
         GameObject.Find("GameManager").GetComponent<GameManager>().NextPhase();

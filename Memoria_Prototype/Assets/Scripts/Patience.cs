@@ -7,9 +7,10 @@ using UnityEngine.UI;
 public class Patience : MonoBehaviour {
 
     public Color[] colors;
-    int[] patienceList = { 12, 10, 8, 4, 2, 2, 1, 0 };
+    int[] patienceList = { 12, 12, 12, 8, 4, 2, 1, 0 };
     int totalPatience;
     public int patience;
+    int previousColorIndex = -1;
 
     void Start() {
         int week = GameObject.Find("GameManager").GetComponent<GameManager>().week - 1;
@@ -19,7 +20,7 @@ public class Patience : MonoBehaviour {
             totalPatience = patienceList[patienceList.Length - 1];
         patience = totalPatience;
         SetColor();
-        GameObject.Find("Bottles").transform.GetChild(Random.Range(0, 10)).GetComponent<Bottle>().labelIndex = 0;
+        Bottle.mistakeCount = (int)((float)Mathf.Min(totalPatience, 12) * 3 / 4);
     }
 
     public void Check() {
@@ -28,7 +29,11 @@ public class Patience : MonoBehaviour {
     }
 
     void SetColor() {
-        transform.GetChild(0).GetComponent<SpriteRenderer>().color = colors[Mathf.CeilToInt((float)patience / totalPatience * 3)];
+        int index = Mathf.CeilToInt(Mathf.Min(patience, 12) / 4f);
+        transform.GetChild(0).GetComponent<SpriteRenderer>().color = colors[index];
+        if (index != previousColorIndex && previousColorIndex != -1)
+            Shake();
+        previousColorIndex = index;
     }
 
     public void Shake() {
@@ -38,9 +43,10 @@ public class Patience : MonoBehaviour {
     IEnumerator ShakeCoroutine() {
         float startTime = Time.time;
         Vector3 originalPos = transform.localPosition;
-        while (Time.time - startTime < 0.2) {
-            int level = (4 - Mathf.CeilToInt((float)patience / totalPatience * 3));     // 1-4
-            float range = level * level * 0.4f + 2f;
+        int level = Mathf.CeilToInt(Mathf.Min(patience, 12) / 4f);
+        while (Time.time - startTime < 0.25 + (3 - level) * 0.1f) {
+            //float range = level * level * 0.4f + 2f;
+            float range = 12;
             transform.localPosition = originalPos + new Vector3(Random.Range(-range, range), Random.Range(-range, range));
             yield return null;
         }
