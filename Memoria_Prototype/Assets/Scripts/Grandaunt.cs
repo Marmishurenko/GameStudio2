@@ -14,17 +14,18 @@ public class Grandaunt : MonoBehaviour {
         StartCoroutine("ShowText", type);
     }
 
-    IEnumerator ShowText(int type) {
+    IEnumerator ShowText(int rightCount) {
         yield return new WaitForSeconds(1.2f);
-        switch (type) {
-            case 0:
+        switch (rightCount) {
+            case 3:
                 transform.GetChild(0).GetComponent<Text>().text = "\"Thank you! I love you.\"";
                 break;
-            case 1:
-                transform.GetChild(0).GetComponent<Text>().text = "\"Thank you, but please get me the right one next time.\"";
-                break;
             case 2:
-                transform.GetChild(0).GetComponent<Text>().text = "\"Thank you, but you can have it love.\"";
+            case 1:
+                transform.GetChild(0).GetComponent<Text>().text = "\"Thank you, but please get me the right ones next time.\"";
+                break;
+            case 0:
+                transform.GetChild(0).GetComponent<Text>().text = "\"Thank you, but you can have them love.\"";
                 break;
         }
         yield return new WaitForSeconds(2.5f);

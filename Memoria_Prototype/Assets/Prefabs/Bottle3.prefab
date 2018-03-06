@@ -101,14 +101,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2de4e9ff0f17c42907b4c8016d27c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HAND_POSITION: {x: -72, y: -66, z: 0}
-  HAND_SCALE: {x: 2.589854, y: 2.589854, z: 0.6944148}
+  HAND_POSITION: {x: -118, y: -30, z: 0}
+  HAND_SCALE: {x: 1.943768, y: 1.943768, z: 1.943768}
+  CART_POSITION: {x: 0, y: 0, z: 0}
+  CART_ROTATION: {x: 0, y: 0, z: 0}
   labels:
   - {fileID: 21300000, guid: c43923852e4b4dd499d72de4d309f1c6, type: 3}
   - {fileID: 21300000, guid: 354eeeab133c05b41beade5ac73d6751, type: 3}
-  - {fileID: 21300000, guid: 6217d3324341fca4f99b8b6ed5d1e86e, type: 3}
-  labelEmpty: {fileID: 21300000, guid: 5a7dabaafab583441ae0557f45654f37, type: 3}
+  - {fileID: 21300000, guid: fdb8b9bf83a888a45a1381ea56fd0359, type: 3}
+  - {fileID: 21300000, guid: 565d79d12a9f9df4985baa04b3eeb609, type: 3}
+  - {fileID: 21300000, guid: a4e81b6e68ced5841a6b61311b1e19aa, type: 3}
   labelIndex: 0
+  looked: 0
 --- !u!114 &114163521014566498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -234,6 +238,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -204.20001, y: 144.6}
+  m_AnchoredPosition: {x: -244, y: 144.19}
   m_SizeDelta: {x: 58.84, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
