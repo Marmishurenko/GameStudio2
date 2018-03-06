@@ -25,7 +25,7 @@ public class Grandaunt : MonoBehaviour {
                 transform.GetChild(0).GetComponent<Text>().text = "\"Thank you, but please get me the right ones next time.\"";
                 break;
             case 0:
-                transform.GetChild(0).GetComponent<Text>().text = "\"Thank you, but you can have them love.\"";
+                transform.GetChild(0).GetComponent<Text>().text = "\"Thank you, but I don't want them anymore.\"";
                 break;
         }
         yield return new WaitForSeconds(2.5f);

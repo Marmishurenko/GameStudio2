@@ -371,16 +371,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Resume\r\n\r\nDocumented project proposal for the capturing / reporting
-    of the line of business calling the Vlipgroup Employee Service Line (VESL), a
-    significant enhancement needed for forecasting and workforce management\r\nOversaw
-    the addition of the Private bank as an additional line of business to VESL\r\nDeveloped,
-    updated, and administered the VESL project team SharePoint site, enabling better
-    dissemination of reports and leading to enhanced collaboration\r\nCreated proposal
-    to Risk and Commercial Operations (RACO) senior management to incorporate value
-    in procedures and adjust adverse actions for high value clients to drive customer
-    satisfaction\r\nActed as an engaged contributor and person responsible for PowerPoint
-    design winning team at inaugural Vlip Management Associate Challenge case competition"
+  m_Text: "Job Application Questionnaire: \r\n\nWhat distinguishes you as a candidate?
+    \r\n\nWhy are you even applying? \r\n\nDon\u2019t waste your time.\r\n\nInadequate.
+    \r\n\nWho would even consider you? \r\n\nI am unqualified and unfit for this position.
+    \r\n\nThere are a million other qualified candidates. \r\n\nI probably will be
+    late. \r\nWill this even get read? \r\nI don\u2019t even know what I\u2019m doing
+    with my life. \r\nI am a joke. So is my \u201Cwork experience.\u201D \r\nI can\u2019t
+    afford to not get this. \r\nWho the hell would want to hire me? \r\nWhat will
+    I do without a job? \r\nWhat\u2019s wrong with me? \r"
 --- !u!222 &541383557
 CanvasRenderer:
   m_ObjectHideFlags: 0
