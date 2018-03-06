@@ -14,6 +14,7 @@ public class TypingController : MonoBehaviour {
 
     void Start() {
         uiText = gameObject.GetComponent<Text>();
+        text = uiText.text;
         uiText.text = "";
     }
 

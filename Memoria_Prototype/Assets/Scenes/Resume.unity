@@ -335,19 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57503e2e00465fb4bac06475df508c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: Stegoceras, a pachycephalosaurid (dome-headed) dinosaur, lived in what is
-    now North America during the Late Cretaceous period, about 77.5 to 74 million
-    years ago. (This genus is unrelated to Stegosaurus, which lived more than 70 million
-    years earlier.) Small and bipedal, Stegoceras was about 2 to 2.5 metres (6.6 to
-    8.2 ft) long and weighed around 10 to 40 kilograms (22 to 88 lb). It had a rigid
-    vertebral column and a stiffened tail. The pelvic region was broad, perhaps due
-    to an extended gut. The skull was roughly triangular with a short snout, topped
-    by a thick, broad, and relatively smooth dome. The skull jutted out in the back
-    over the occiput, and had a thick ridge over the eyes. The teeth were small and
-    serrated. The skull is thought to have been flat in juvenile animals, growing
-    into a dome with age. The dome may have been used for combat, display, or recognition.
-    Specimens have been found in the Dinosaur Park and Oldman Formations in Alberta,
-    and the Fruitland and Kirtland Formations in the US.
+  text: 
   speed: 
   speedLevels:
   - 1
@@ -383,7 +371,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Resume
+  m_Text: "Resume\r\n\r\nDocumented project proposal for the capturing / reporting
+    of the line of business calling the Vlipgroup Employee Service Line (VESL), a
+    significant enhancement needed for forecasting and workforce management\r\nOversaw
+    the addition of the Private bank as an additional line of business to VESL\r\nDeveloped,
+    updated, and administered the VESL project team SharePoint site, enabling better
+    dissemination of reports and leading to enhanced collaboration\r\nCreated proposal
+    to Risk and Commercial Operations (RACO) senior management to incorporate value
+    in procedures and adjust adverse actions for high value clients to drive customer
+    satisfaction\r\nActed as an engaged contributor and person responsible for PowerPoint
+    design winning team at inaugural Vlip Management Associate Challenge case competition"
 --- !u!222 &541383557
 CanvasRenderer:
   m_ObjectHideFlags: 0
