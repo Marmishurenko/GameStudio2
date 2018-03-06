@@ -23,7 +23,7 @@ public class TrashPickup : MonoBehaviour {
 			GameManager.instance.health++;
 			anim.SetTrigger("BendOver");
 			StartCoroutine (WaitForAnimation ());
-			//Destroy (gameObject);
+			Destroy (gameObject);
 
 
 		}
@@ -31,9 +31,11 @@ public class TrashPickup : MonoBehaviour {
 
 	IEnumerator WaitForAnimation(){
 		yield return new WaitForSeconds (1f);
-		gameObject.GetComponent<MeshRenderer> ().enabled = false;
-		gameObject.GetComponent<BoxCollider> ().enabled = false;
+//		gameObject.GetComponent<MeshRenderer> ().enabled = false;
+//		gameObject.GetComponent<BoxCollider> ().enabled = false;
+		Destroy (gameObject);
 
+//
 
 	}
 }

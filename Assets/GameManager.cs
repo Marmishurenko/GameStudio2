@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		
 		time++;
-		if (time == 200) {
+		if (time == 300) {
 			EndGame ();
 		}
 
