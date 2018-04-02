@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameManager.cs">
+    <Files>
+      <File FileName="Assets/TrashPickup.cs" Line="33" Column="37" />
+      <File FileName="Assets/GameManager.cs" Line="44" Column="16" />
+      <File FileName="Assets/UpdateHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/ObjAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Models/UTJ/Alembic/Scripts/Importer/AlembicStreamPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/ParticleSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/ParticleMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/DoNotDestroy.cs" Line="1" Column="1" />
+      <File FileName="Assets/restart.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
