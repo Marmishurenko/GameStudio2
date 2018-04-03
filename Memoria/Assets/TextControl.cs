@@ -24,8 +24,8 @@ public class TextControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         yumiText.SetText(stringsTexts[textCounter]);
-        print(textCounter);
-        if (textCounter == 8)
+        //print(textCounter);
+        if (textCounter == stringsTexts.Length-1)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
@@ -40,13 +40,10 @@ public class TextControl : MonoBehaviour {
 
     public void LerpTextColor(){
 
-        //if (timer > 0)
-        //{
-            timer = Time.deltaTime / fadeTime;
+        timer = Time.deltaTime / fadeTime;
             curColor = Mathf.Lerp(curColor, 0, timer);
             yumiText.color = new Color(yumiText.color.r, yumiText.color.g, yumiText.color.b, curColor);
-            print(curColor);
-        //}
+           // print(curColor);
     }
 
     public void ResetTextColor(){
