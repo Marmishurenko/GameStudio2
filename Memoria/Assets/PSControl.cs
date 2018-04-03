@@ -5,7 +5,6 @@ using UnityEngine;
 public class PSControl : MonoBehaviour {
     ParticleSystem ps;
     ParticleSystem.EmissionModule emissionModule;
-    public AnimationCurve curve;
     public float fadeTime = 0.2f;
     float timer;
     float curRate;

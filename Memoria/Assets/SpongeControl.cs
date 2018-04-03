@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 public class SpongeControl : MonoBehaviour {
     string curTag;
@@ -11,6 +12,8 @@ public class SpongeControl : MonoBehaviour {
     public UnityEvent OnAuntRub;
     public UnityEvent OnBucketEnter;
     public UnityEvent OnBucketExit;
+
+
 	
     // Use this for initialization
 	void Start () {
