@@ -10,11 +10,5 @@ public class SetPosition : MonoBehaviour {
 		transform.position = pos;
 	}
 
-    public void BubblesOn(){
-        
-    }
 
-    public void BubblesOff(){
-        
-    }
 }
