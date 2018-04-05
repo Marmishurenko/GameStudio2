@@ -13,7 +13,7 @@ public abstract class MonoExtended : MonoBehaviour {
     }
 
     void Update() {
-        // Game state like running or paused
+        // Respond to game states, like running or paused
         switch (gameManager.gameState) {
             case GAME_STATE.RUNNING:
                 GameUpdate();
