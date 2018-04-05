@@ -2070,7 +2070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &999432521
 Transform:
   m_ObjectHideFlags: 0
@@ -2096,6 +2096,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameState: 0
+  gameStage: 0
+  transition: {fileID: 0}
+  sceneArray: []
+  textingSceneStage: 0
 --- !u!1 &1269187804
 GameObject:
   m_ObjectHideFlags: 0

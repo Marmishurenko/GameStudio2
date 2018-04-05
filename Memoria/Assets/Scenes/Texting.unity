@@ -1174,9 +1174,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textingScripts:
-  - /G1C/Y4C/G4C/Y4C/G4C/Y4C/G4C/Y4C
-  - /GA/GB/G*C/G*D/E
-  - /Y1A/T/Y1B/Y1*C/T/Y1*D/T/E
+  - /G1C/Y3C/T/G3C/Y3C/T/G4B/Y3C/T/G5A/T/Y1A/E
+  - /G1C/Y3*D/T/G3*C/Y3*D/T/G3*C/T/Y3*D/T/G3A/Y2A/E
+  - /4/T/Y2B/T/Y4D/T/Y4D/T/Y4D/E
   messagePrefab: {fileID: 1366178213642866, guid: 9e01765d19cd80c489e0fc6e57fcd0e2,
     type: 2}
   messageWindow: {fileID: 1375683660}
@@ -1327,7 +1327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1399282895
 MonoBehaviour:
   m_ObjectHideFlags: 0

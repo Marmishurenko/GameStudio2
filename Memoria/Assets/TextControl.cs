@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class TextControl : MonoBehaviour {
+public class TextControl : MonoExtended {
 
     public TMP_Text yumiText;
     public string[] stringsTexts;
@@ -27,7 +27,8 @@ public class TextControl : MonoBehaviour {
         //print(textCounter);
         if (textCounter == stringsTexts.Length-1)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("load");
+            gameManager.LoadTransitionScene();
         }
 		
 	}
@@ -52,13 +53,16 @@ public class TextControl : MonoBehaviour {
         
     }
 
-//    with care I clean auntie nena
-//I tell her about my dreams
-//I tell her about my friends
-//I tell her about my life
-//with care I wash her
-//I ask “auntie, how do you feel today”
-//in Tagalog she grumbles “be quiet”
+    protected override void GameUpdate() {
+    }
+
+    //    with care I clean auntie nena
+    //I tell her about my dreams
+    //I tell her about my friends
+    //I tell her about my life
+    //with care I wash her
+    //I ask “auntie, how do you feel today”
+    //in Tagalog she grumbles “be quiet”
 
 
 }
