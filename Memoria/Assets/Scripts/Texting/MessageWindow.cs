@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MessageList : MonoBehaviour {
+public class MessageWindow : MonoBehaviour {
 
     float targetPos;
 
