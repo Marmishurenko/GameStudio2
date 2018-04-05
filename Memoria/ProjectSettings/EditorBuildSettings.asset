@@ -18,10 +18,20 @@ EditorBuildSettings:
     path: Assets/Scenes/ShowerCycle2.unity
     guid: 5e113ac9b1bd548079d22f99759a5c99
   - enabled: 1
+    path: Assets/Scenes/CleaningRoomCycle2.unity
+    guid: 9c1bdcf4003ef4ec7a1c5470bd76c31f
+  - enabled: 1
     path: Assets/Scenes/ShowerCycle3.unity
     guid: 22b05f5b2ff8345eeb9fd03bf2d74ea6
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Main.unity
+=======
+    path: Assets/Scenes/CleaningRoomCycle3.unity
+    guid: a2c8de6976c324a52b6cdbb295427ba3
+  - enabled: 1
+    path: Assets/Scenes/main.unity
+>>>>>>> 4c080d90f319dd8a84bcd462ddcf578b4f603f31
     guid: c712d4fb27a24954fba5a86ce1323351
   - enabled: 1
     path: Assets/Scenes/Transition.unity

@@ -17,6 +17,7 @@ public class garbageControl : MonoBehaviour {
         if (garbageCounter==5){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+        print(garbageCounter);
 		
 	}
 
@@ -29,6 +30,7 @@ public class garbageControl : MonoBehaviour {
             other.GetComponentInChildren<TMP_Text>().enabled = false;
         }
         garbageCounter++;
+      
 
 
 	}
