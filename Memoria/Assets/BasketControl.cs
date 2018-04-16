@@ -22,9 +22,7 @@ public class BasketControl : MonoExtended
     // Update is called once per frame
     void Update()
     {
-        while (CRStarted){
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
-        }
+        
 
         if (itemCounter == 5)
         {
@@ -68,7 +66,7 @@ public class BasketControl : MonoExtended
 
     IEnumerator LerpToPosition(float lerpSpeed, Vector3 newPosition)
     {
-        CRStarted = true;
+        
         float t = 0.0f;
         Vector3 startingPos = cam.transform.position;
         while (t < 1.0f)
@@ -77,7 +75,6 @@ public class BasketControl : MonoExtended
             cam.transform.position = Vector3.Lerp(startingPos, newPosition, t);
             yield return 0;
 
-            CRStarted = false;
         }
     }
 }
