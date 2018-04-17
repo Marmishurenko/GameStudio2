@@ -4,35 +4,4 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/ShowerCycle1.unity
-    guid: 980745a3c41884637899004a9d1cfc9d
-  - enabled: 1
-    path: Assets/Scenes/CleaningRoomCycle1.unity
-    guid: 2fcd5443561d243399939a0bc3e554be
-  - enabled: 1
-    path: Assets/Scenes/Texting.unity
-    guid: 4197831f4cfd2a941bfe796efc41daf8
-  - enabled: 1
-    path: Assets/Scenes/ShowerCycle2.unity
-    guid: 5e113ac9b1bd548079d22f99759a5c99
-  - enabled: 1
-    path: Assets/Scenes/CleaningRoomCycle2.unity
-    guid: 9c1bdcf4003ef4ec7a1c5470bd76c31f
-  - enabled: 1
-    path: Assets/Scenes/ShowerCycle3.unity
-    guid: 22b05f5b2ff8345eeb9fd03bf2d74ea6
-  - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Scenes/Main.unity
-=======
-    path: Assets/Scenes/CleaningRoomCycle3.unity
-    guid: a2c8de6976c324a52b6cdbb295427ba3
-  - enabled: 1
-    path: Assets/Scenes/main.unity
->>>>>>> 4c080d90f319dd8a84bcd462ddcf578b4f603f31
-    guid: c712d4fb27a24954fba5a86ce1323351
-  - enabled: 1
-    path: Assets/Scenes/Transition.unity
-    guid: 792e371cc56ecff4ebe2705f55597f1b
+  m_Scenes: []
