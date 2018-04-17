@@ -12,11 +12,13 @@ public class BasketControl : MonoExtended
     public float speed=3f;
     private SpriteRenderer[] srs;
     bool CRStarted = false;
-   
+    public TMP_Text txt;
+    public AnimationCurve curve;
+
     // Use this for initialization
     void Start()
     {
-        target = new Vector3(17f, 0, -10);
+        target = new Vector3(17.69f, 0, -10);
     }
 
     // Update is called once per frame
@@ -24,12 +26,13 @@ public class BasketControl : MonoExtended
     {
         
 
-        if (itemCounter == 5)
+        if (itemCounter == 7)
         {
+            //itemCounter = 0;
             gameManager.LoadTransitionScene();
         }
         // print(itemCounter);
-        print(CRStarted);
+       
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -46,9 +49,11 @@ public class BasketControl : MonoExtended
             }
              }
 
-        LerpCam();
+       
        
         itemCounter++;
+       // ShowText();
+        LerpCam();
 
     }
 
@@ -59,7 +64,7 @@ public class BasketControl : MonoExtended
     private void LerpCam()
     {
         StartCoroutine(LerpToPosition(speed, target));
-        target = new Vector3(target.x + 17f, target.y, target.z);
+        target = new Vector3(target.x + 17.69f, target.y, target.z);
 
 
     }
@@ -72,8 +77,38 @@ public class BasketControl : MonoExtended
         while (t < 1.0f)
         {
             t += Time.deltaTime * (Time.timeScale / lerpSpeed);
-            cam.transform.position = Vector3.Lerp(startingPos, newPosition, t);
+            float curveTime = curve.Evaluate(t);
+            cam.transform.position = Vector3.Lerp(startingPos, newPosition, curveTime);
             yield return 0;
+
+        }
+    }
+
+    public void ShowText()
+    {
+        switch (itemCounter)
+        {
+            case 6:
+                txt.SetText("...");
+                break;
+            case 5:
+                txt.SetText("I think it worked…");
+                break;
+            case 4:
+                txt.SetText("ok…I can just pretend I’m listening to the music and don’t hear him.");
+                break;
+            case 3:
+                txt.SetText("Is this Brian over there? — Yumi? Hi! It’s been a while!How…");
+                break;
+            case 2:
+                txt.SetText("Uh..this is torture.");
+                break;
+            case 1:
+                txt.SetText(" Funny, I can’t remember when or what I ate last time..");
+                break;
+            default:
+                txt.SetText("I can’t remember if I always hated grocery stores..");
+                break;
 
         }
     }
