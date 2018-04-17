@@ -19,7 +19,7 @@ public class Message : MonoExtended {
             gameObject.GetComponent<SpriteRenderer>().sprite = girlMessages[size];
             transform.position = new Vector3(girlPos + frame.x / 2, -1.46f - frame.y / 2);
         }
-        transform.parent.GetComponent<MessageList>().SetTargetPos(frame.y);
+        transform.parent.GetComponent<MessageWindow>().SetTargetPos(frame.y);
     }
 
     protected override void GameUpdate() {
