@@ -113,60 +113,68 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &999432520
-GameObject:
+--- !u!1001 &1508984292
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 999432521}
-  - component: {fileID: 999432522}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &999432521
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 999432520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &999432522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 999432520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f6471827c1f27642bda713b4d7192ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameState: 0
-  gameStage: 0
-  transition: {fileID: 102900000, guid: 792e371cc56ecff4ebe2705f55597f1b, type: 3}
-  sceneArray:
-  - {fileID: 102900000, guid: 980745a3c41884637899004a9d1cfc9d, type: 3}
-  - {fileID: 102900000, guid: 2fcd5443561d243399939a0bc3e554be, type: 3}
-  - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
-  - {fileID: 102900000, guid: 5e113ac9b1bd548079d22f99759a5c99, type: 3}
-  - {fileID: 102900000, guid: 9c1bdcf4003ef4ec7a1c5470bd76c31f, type: 3}
-  - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
-  - {fileID: 102900000, guid: 22b05f5b2ff8345eeb9fd03bf2d74ea6, type: 3}
-  - {fileID: 102900000, guid: a2c8de6976c324a52b6cdbb295427ba3, type: 3}
-  - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
-  textingSceneStage: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212613330979767924, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212613330979767924, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212613330979767924, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212613330979767924, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1833888589
 GameObject:
   m_ObjectHideFlags: 0

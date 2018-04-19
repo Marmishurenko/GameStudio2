@@ -21,23 +21,97 @@ public class GameManager : MonoBehaviour {
 
     public int textingSceneStage;
 
+    [SerializeField] GameObject cursorPrefab;
+
+    [SerializeField] SpriteRenderer blackScreen;
+    [SerializeField] float FADE_IN_TIME;
+    [SerializeField] float FADE_OUT_TIME;
+
+    SpriteRenderer cursorSR;
+
+    void Awake() {
+        if (GameObject.FindGameObjectsWithTag("GameManager").Length > 1) {
+            Destroy(gameObject);
+            return;
+        }
+        GameObject cursor = Instantiate(cursorPrefab);
+        cursorSR = cursor.GetComponent<SpriteRenderer>();
+        cursorSR.enabled = false;
+    }
+
     void Start() {
         DontDestroyOnLoad(gameObject);
         gameState = GAME_STATE.RUNNING;
         gameStage = -1;
         textingSceneStage = 0;
-        LoadTransitionScene();
+
+        SceneManager.sceneLoaded += FadeIn;
+
+        SceneManager.LoadScene(transition.name);
     }
 
     // Call this to end current scene
     public virtual void LoadTransitionScene() {
+        StartCoroutine("EnterTransitionScene");
+    }
+
+    IEnumerator EnterTransitionScene() {
+        gameState = GAME_STATE.PAUSED;
+
+        // Fade out
+        float timer = 0;
+        while (timer < FADE_OUT_TIME) {
+            timer += 0.05f;
+            Color c = blackScreen.color;
+            c.a = timer / FADE_OUT_TIME;
+            blackScreen.color = c;
+            yield return new WaitForSeconds(0.05f);
+        }
+
+        // Load
         SceneManager.LoadScene(transition.name);
+        cursorSR.enabled = false;
+        gameState = GAME_STATE.RUNNING;
     }
 
     // Call this to start the next scene
     public void LoadNextGameScene() {
+        StartCoroutine("EnterNextGameScene");
+    }
+
+    IEnumerator EnterNextGameScene() {
+        gameState = GAME_STATE.PAUSED;
+
+        // Fade out
+        float timer = 0;
+        while (timer < FADE_OUT_TIME) {
+            timer += 0.05f;
+            Color c = blackScreen.color;
+            c.a = timer / FADE_OUT_TIME;
+            blackScreen.color = c;
+            yield return new WaitForSeconds(0.05f);
+        }
+
+        // Load
         gameStage++;
         SceneManager.LoadScene(sceneArray[gameStage].name);
+        gameState = GAME_STATE.RUNNING;
+        cursorSR.enabled = true;
+    }
+
+    void FadeIn(Scene scene, LoadSceneMode mode) {
+        StartCoroutine("CoroutineFadeIn");
+    }
+
+    IEnumerator CoroutineFadeIn() {
+        float timer = 0;
+        while (timer < FADE_IN_TIME) {
+            timer += 0.05f;
+            Color c = blackScreen.color;
+            c.a = 1 - timer / FADE_IN_TIME;
+            blackScreen.color = c;
+            yield return new WaitForSeconds(0.05f);
+        }
     }
 }
 
