@@ -22,8 +22,7 @@ public class BasketControl : MonoExtended
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    protected override void GameUpdate() {
         
 
         if (itemCounter == 7)
@@ -55,10 +54,6 @@ public class BasketControl : MonoExtended
        // ShowText();
         LerpCam();
 
-    }
-
-    protected override void GameUpdate()
-    {
     }
 
     private void LerpCam()
