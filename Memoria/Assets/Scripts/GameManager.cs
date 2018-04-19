@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour {
     [SerializeField] float FADE_IN_TIME;
     [SerializeField] float FADE_OUT_TIME;
 
-    SpriteRenderer cursorSR;
+    CursorController cursorController;
 
     void Awake() {
         if (GameObject.FindGameObjectsWithTag("GameManager").Length > 1) {
@@ -35,8 +35,8 @@ public class GameManager : MonoBehaviour {
             return;
         }
         GameObject cursor = Instantiate(cursorPrefab);
-        cursorSR = cursor.GetComponent<SpriteRenderer>();
-        cursorSR.enabled = false;
+        cursorController = cursor.GetComponent<CursorController>();
+        cursorController.Hide();
     }
 
     void Start() {
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour {
 
         // Load
         SceneManager.LoadScene(transition.name);
-        cursorSR.enabled = false;
+        cursorController.Hide();
         gameState = GAME_STATE.RUNNING;
     }
 
@@ -96,10 +96,17 @@ public class GameManager : MonoBehaviour {
         gameStage++;
         SceneManager.LoadScene(sceneArray[gameStage].name);
         gameState = GAME_STATE.RUNNING;
-        cursorSR.enabled = true;
+        cursorController.Show();
     }
 
     void FadeIn(Scene scene, LoadSceneMode mode) {
+        if (SceneManager.GetActiveScene().name == "Texting") {
+            cursorController.spriteOffset = 2;
+            cursorController.transform.localScale = Vector3.one * 1.2f;
+        } else {
+            cursorController.spriteOffset = 0;
+            cursorController.transform.localScale = Vector3.one * 0.45f;
+        }
         StartCoroutine("CoroutineFadeIn");
     }
 

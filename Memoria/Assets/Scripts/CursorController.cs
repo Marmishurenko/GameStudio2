@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CursorController : MonoExtended {
 
@@ -10,15 +11,31 @@ public class CursorController : MonoExtended {
 
     [SerializeField] List<Sprite> spriteList;
 
+    Vector2 cursorPosition;
     Vector2 cursorTargetPosition;
     List<GameObject> targetList = new List<GameObject>();
+    public int spriteOffset = 0;
 
     void Start() {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        cursorTargetPosition = transform.position;
+        cursorPosition = Vector2.zero;
+        cursorTargetPosition = Vector2.zero;
 
         DontDestroyOnLoad(gameObject);
+    }
+
+    public void Hide() {
+        transform.GetComponent<SpriteRenderer>().enabled = false;
+        cursorPosition = Vector2.zero;
+        cursorTargetPosition = Vector2.zero;
+    }
+
+    public void Show() {
+        transform.GetComponent<SpriteRenderer>().enabled = true;
+        cursorPosition = Vector2.zero;
+        cursorTargetPosition = Vector2.zero;
+        Debug.Log(SceneManager.GetActiveScene().name);
     }
 
     protected override void GameUpdate() {
@@ -30,7 +47,9 @@ public class CursorController : MonoExtended {
         if (delta.magnitude > cursorSpeedCap)
             delta = delta.normalized * cursorSpeedCap;
         cursorTargetPosition += delta;
-        transform.position = Vector3.Lerp(transform.position, cursorTargetPosition, cursorSpeedLerp);
+        Vector2 cameraPos = (Vector2)Camera.main.transform.position;
+        cursorPosition = Vector3.Lerp(cursorPosition, cursorTargetPosition, cursorSpeedLerp);
+        transform.position = cursorPosition + (Vector2)Camera.main.transform.position;
 
         if (Input.GetMouseButtonDown(0)) {
             // Fire mouse event
@@ -51,7 +70,7 @@ public class CursorController : MonoExtended {
         }
 
         if (Input.GetMouseButton(0)) {
-            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[1];
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[spriteOffset + 1];
             // Fire mouse event
             if (targetList.Count > 0 && targetList[targetList.Count - 1] != null) {
                 MouseEvent me = targetList[targetList.Count - 1].GetComponent<MouseEvent>();
@@ -59,7 +78,7 @@ public class CursorController : MonoExtended {
                     me.OnDrag();
             }
         } else {
-            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+            gameObject.GetComponent<SpriteRenderer>().sprite = spriteList[spriteOffset];
         }
     }
 
