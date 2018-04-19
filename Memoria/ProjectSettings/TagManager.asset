@@ -8,6 +8,7 @@ TagManager:
   - Aunt
   - GameManager
   - Cursor
+  - basket
   layers:
   - Default
   - TransparentFX
