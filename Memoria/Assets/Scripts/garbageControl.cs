@@ -13,7 +13,7 @@ public class garbageControl : MonoExtended {
     }
 
     // Update is called once per frame
-    void Update() {
+    protected override void GameUpdate() {
         if (garbageCounter == 5) {
             gameManager.LoadTransitionScene();
         }
@@ -28,8 +28,5 @@ public class garbageControl : MonoExtended {
             other.GetComponentInChildren<TMP_Text>().enabled = false;
         }
         garbageCounter++;
-    }
-
-    protected override void GameUpdate() {
     }
 }

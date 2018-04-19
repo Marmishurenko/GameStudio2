@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CursorController : MonoBehaviour {
+public class CursorController : MonoExtended {
 
     [SerializeField] float cursorSpeedScale;
     [SerializeField] float cursorSpeedCap;
@@ -21,7 +21,10 @@ public class CursorController : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
     }
 
-    void Update() {
+    protected override void GameUpdate() {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         // Update cursor position
         Vector2 delta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y")) * cursorSpeedScale;
         if (delta.magnitude > cursorSpeedCap)
