@@ -10,50 +10,47 @@ public class TextControl : MonoExtended {
     public string[] stringsTexts;
     private int textCounter = 0;
     public float fadeTime = 0.2f;
-    float timer=1f;
+    float timer = 1f;
     float curColor;
     float endColor = 0f;
-   
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start() {
         curColor = yumiText.color.a;
-       
-	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    }
+
+    // Update is called once per frame
+    protected override void GameUpdate() {
         yumiText.SetText(stringsTexts[textCounter]);
         //print(textCounter);
-        if (textCounter == stringsTexts.Length-1)
-        {
+        if (textCounter == stringsTexts.Length - 1) {
             Debug.Log("load");
+            GameObject.Find("BubbleParticle").SetActive(false);
             gameManager.LoadTransitionScene();
         }
-		
-	}
 
-    public void UpdateTextCounter(){
+    }
+
+    public void UpdateTextCounter() {
         textCounter++;
-       
+
     }
 
 
-    public void LerpTextColor(){
+    public void LerpTextColor() {
 
         timer = Time.deltaTime / fadeTime;
-            curColor = Mathf.Lerp(curColor, 0, timer);
-            yumiText.color = new Color(yumiText.color.r, yumiText.color.g, yumiText.color.b, curColor);
-           // print(curColor);
+        curColor = Mathf.Lerp(curColor, 0, timer);
+        yumiText.color = new Color(yumiText.color.r, yumiText.color.g, yumiText.color.b, curColor);
+        // print(curColor);
     }
 
-    public void ResetTextColor(){
+    public void ResetTextColor() {
         timer = 1f;
         curColor = 1f;
-        
-    }
 
-    protected override void GameUpdate() {
     }
 
     //    with care I clean auntie nena
