@@ -21,12 +21,26 @@ public class GameManager : MonoBehaviour {
 
     public int textingSceneStage;
 
+    [SerializeField] GameObject cursorPrefab;
+
+    void Awake() {
+        if (GameObject.FindGameObjectsWithTag("GameManager").Length > 1) {
+            Destroy(gameObject);
+            return;
+        }
+        GameObject cursorObject = Instantiate(cursorPrefab);
+    }
+
     void Start() {
         DontDestroyOnLoad(gameObject);
         gameState = GAME_STATE.RUNNING;
         gameStage = -1;
         textingSceneStage = 0;
+
         LoadTransitionScene();
+    }
+
+    void Update() {
     }
 
     // Call this to end current scene

@@ -302,17 +302,17 @@ MonoBehaviour:
   onMouseDownEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!1 &32163751
 GameObject:
@@ -488,7 +488,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -504,7 +504,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -520,7 +520,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &33977711
 MonoBehaviour:
@@ -996,7 +996,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -1012,7 +1012,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -1028,7 +1028,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &65853302
 MonoBehaviour:
@@ -1540,7 +1540,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -1556,7 +1556,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -1572,7 +1572,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &96423442
 BoxCollider2D:
@@ -2101,7 +2101,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -2117,7 +2117,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -2133,7 +2133,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &175602816
 BoxCollider2D:
@@ -2545,7 +2545,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -2561,7 +2561,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -2577,7 +2577,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &245639911
 Rigidbody2D:
@@ -2761,7 +2761,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -2777,7 +2777,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -2793,7 +2793,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &257050721
 Rigidbody2D:
@@ -2977,7 +2977,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -2993,7 +2993,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -3009,7 +3009,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &268107920
 Rigidbody2D:
@@ -3607,7 +3607,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -3623,7 +3623,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -3639,7 +3639,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &315270147
 Rigidbody2D:
@@ -4094,17 +4094,17 @@ MonoBehaviour:
   onMouseDownEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!1 &400990644
 GameObject:
@@ -4513,7 +4513,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -4529,7 +4529,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -4545,7 +4545,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &426598617
 Rigidbody2D:
@@ -4742,7 +4742,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -4758,7 +4758,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -4774,7 +4774,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &460157912
 BoxCollider2D:
@@ -5042,7 +5042,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -5058,7 +5058,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -5074,7 +5074,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &478300650
 BoxCollider2D:
@@ -5194,7 +5194,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -5210,7 +5210,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -5226,7 +5226,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &491228457
 Rigidbody2D:
@@ -5929,7 +5929,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -5945,7 +5945,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -5961,7 +5961,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &546300160
 MonoBehaviour:
@@ -6149,7 +6149,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -6165,7 +6165,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -6181,7 +6181,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &556069554
 Rigidbody2D:
@@ -6540,7 +6540,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -6556,7 +6556,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -6572,7 +6572,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &678959285
 Rigidbody2D:
@@ -6764,7 +6764,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -6780,7 +6780,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -6796,7 +6796,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &684776799
 MonoBehaviour:
@@ -7089,7 +7089,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -7105,7 +7105,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -7121,7 +7121,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &708404661
 BoxCollider2D:
@@ -7265,7 +7265,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -7281,7 +7281,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -7297,7 +7297,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &712763453
 Rigidbody2D:
@@ -7518,7 +7518,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -7534,7 +7534,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -7550,7 +7550,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &735959851
 MonoBehaviour:
@@ -7726,7 +7726,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -7742,7 +7742,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -7758,7 +7758,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &750430779
 Rigidbody2D:
@@ -8160,7 +8160,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -8176,7 +8176,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -8192,7 +8192,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &772626148
 BoxCollider2D:
@@ -8397,7 +8397,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -8413,7 +8413,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -8429,7 +8429,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &783361122
 Rigidbody2D:
@@ -8739,7 +8739,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -8755,7 +8755,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -8771,7 +8771,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &812564309
 Rigidbody2D:
@@ -8996,7 +8996,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -9012,7 +9012,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -9028,7 +9028,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &823673454
 Rigidbody2D:
@@ -9290,7 +9290,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -9306,7 +9306,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -9322,7 +9322,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &880991489
 Rigidbody2D:
@@ -9486,7 +9486,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -9502,7 +9502,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -9518,7 +9518,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &881002664
 Rigidbody2D:
@@ -9608,17 +9608,17 @@ MonoBehaviour:
   onMouseDownEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!1 &925238383
 GameObject:
@@ -9723,17 +9723,17 @@ MonoBehaviour:
   onMouseDownEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!4 &951682478
 Transform:
@@ -9922,7 +9922,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -9938,7 +9938,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -9954,7 +9954,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &962651609
 MonoBehaviour:
@@ -10138,7 +10138,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -10154,7 +10154,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -10170,7 +10170,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &977008017
 MonoBehaviour:
@@ -10427,7 +10427,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -10443,7 +10443,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -10459,7 +10459,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &993701744
 MonoBehaviour:
@@ -10542,51 +10542,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!1 &999432520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 999432521}
-  - component: {fileID: 999432522}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &999432521
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 999432520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &999432522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 999432520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f6471827c1f27642bda713b4d7192ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameState: 0
-  gameStage: 0
-  transition: {fileID: 0}
-  sceneArray: []
-  textingSceneStage: 0
 --- !u!1 &1001007678
 GameObject:
   m_ObjectHideFlags: 0
@@ -10907,7 +10862,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -10923,7 +10878,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -10939,7 +10894,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &1022522258
 BoxCollider2D:
@@ -11071,7 +11026,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -11087,7 +11042,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -11103,7 +11058,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1029910069
 Rigidbody2D:
@@ -11368,7 +11323,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -11384,7 +11339,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -11400,7 +11355,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &1045991865
 BoxCollider2D:
@@ -12104,7 +12059,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -12120,7 +12075,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -12136,7 +12091,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1167796342
 Rigidbody2D:
@@ -12539,7 +12494,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -12555,7 +12510,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -12571,7 +12526,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1224939771
 Rigidbody2D:
@@ -12662,6 +12617,111 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1233105309
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1197861951702310, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 102900000, guid: 2fcd5443561d243399939a0bc3e554be,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 102900000, guid: 2fcd5443561d243399939a0bc3e554be,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 102900000, guid: 5e113ac9b1bd548079d22f99759a5c99,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 102900000, guid: 9c1bdcf4003ef4ec7a1c5470bd76c31f,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[5]
+      value: 
+      objectReference: {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 102900000, guid: 22b05f5b2ff8345eeb9fd03bf2d74ea6,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 102900000, guid: a2c8de6976c324a52b6cdbb295427ba3,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[8]
+      value: 
+      objectReference: {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1233488700
 GameObject:
   m_ObjectHideFlags: 0
@@ -12909,7 +12969,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -12925,7 +12985,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -12941,7 +13001,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1253762582
 Rigidbody2D:
@@ -13417,7 +13477,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -13433,7 +13493,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -13449,7 +13509,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &1320794588
 BoxCollider2D:
@@ -13577,7 +13637,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -13593,7 +13653,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -13609,7 +13669,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &1327352833
 MonoBehaviour:
@@ -13858,7 +13918,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -13874,7 +13934,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -13890,7 +13950,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1362149959
 Rigidbody2D:
@@ -14949,7 +15009,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -14965,7 +15025,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -14981,7 +15041,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1548541659
 Rigidbody2D:
@@ -15166,7 +15226,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -15182,7 +15242,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -15198,7 +15258,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1549124217
 Rigidbody2D:
@@ -15480,7 +15540,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -15496,7 +15556,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -15512,7 +15572,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1572118772
 Rigidbody2D:
@@ -15696,7 +15756,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -15712,7 +15772,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -15728,7 +15788,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1574787901
 Rigidbody2D:
@@ -15951,7 +16011,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -15967,7 +16027,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -15983,7 +16043,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1624317637
 Rigidbody2D:
@@ -16394,7 +16454,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -16410,7 +16470,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -16426,7 +16486,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1652837276
 Rigidbody2D:
@@ -16578,7 +16638,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -16594,7 +16654,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -16610,7 +16670,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1667796884
 Rigidbody2D:
@@ -16948,7 +17008,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -16964,7 +17024,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -16980,7 +17040,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &1691025215
 MonoBehaviour:
@@ -17200,7 +17260,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -17216,7 +17276,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -17232,7 +17292,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &1694789188
 BoxCollider2D:
@@ -17411,7 +17471,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -17427,7 +17487,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -17443,7 +17503,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1694909504
 Rigidbody2D:
@@ -17814,7 +17874,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -17830,7 +17890,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -17846,7 +17906,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1787108017
 Rigidbody2D:
@@ -18372,7 +18432,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -18388,7 +18448,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -18404,7 +18464,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1850733710
 Rigidbody2D:
@@ -18601,7 +18661,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -18617,7 +18677,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -18633,7 +18693,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1886431449
 Rigidbody2D:
@@ -19161,7 +19221,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -19177,7 +19237,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -19193,7 +19253,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &1965116391
 Rigidbody2D:
@@ -19458,7 +19518,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -19474,7 +19534,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -19490,7 +19550,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &1970115395
 MonoBehaviour:
@@ -19897,17 +19957,17 @@ MonoBehaviour:
   onMouseDownEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!1 &1996356548
 GameObject:
@@ -20046,7 +20106,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -20062,7 +20122,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -20078,7 +20138,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &1996356554
 BoxCollider2D:
@@ -20242,7 +20302,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -20258,7 +20318,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -20274,7 +20334,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &2018513530
 BoxCollider2D:
@@ -20394,7 +20454,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -20410,7 +20470,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -20426,7 +20486,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &2026016936
 Rigidbody2D:
@@ -20695,7 +20755,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -20711,7 +20771,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -20727,7 +20787,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &2037542067
 Rigidbody2D:
@@ -21101,7 +21161,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -21117,7 +21177,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -21133,7 +21193,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &2064574975
 BoxCollider2D:
@@ -21297,7 +21357,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -21313,7 +21373,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -21329,7 +21389,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!61 &2066494871
 BoxCollider2D:
@@ -21495,7 +21555,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -21511,7 +21571,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -21527,7 +21587,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &2073294992
 MonoBehaviour:
@@ -21738,7 +21798,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -21754,7 +21814,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -21770,7 +21830,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!50 &2074475773
 Rigidbody2D:
@@ -21962,7 +22022,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -21978,7 +22038,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -21994,7 +22054,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &2075414888
 MonoBehaviour:
@@ -22178,7 +22238,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseUpEvent:
     m_PersistentCalls:
@@ -22194,7 +22254,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   onMouseDragEvent:
     m_PersistentCalls:
@@ -22210,7 +22270,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Mouse+MouseEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: MouseEvent+Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!114 &2098061214
 MonoBehaviour:
