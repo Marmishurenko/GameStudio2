@@ -15,12 +15,14 @@ public class BasketControl : MonoExtended
     public TMP_Text txt;
     public AnimationCurve curve;
     public string[] lines;
+    private float camWidth;
 
     void Start()
     {
-        target = new Vector3(17.69f, 0, -10);//hardcoded, haha!
+        float height = 2 * cam.orthographicSize;
+        camWidth = height * cam.aspect;
+        target = new Vector3(camWidth, 0, -10);//hardcoded, haha!
     }
-
     protected override void GameUpdate() {
         if (itemCounter == lines.Length)
         {
@@ -41,7 +43,7 @@ public class BasketControl : MonoExtended
             speed = speed / (float)1.5f;
         }
         StartCoroutine(LerpToPosition(speed, target));
-        target = new Vector3(target.x + 17.69f, target.y, target.z);
+        target = new Vector3(target.x + camWidth, target.y, target.z);
     }
     IEnumerator LerpToPosition(float lerpSpeed, Vector3 newPosition)
     {
