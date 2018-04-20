@@ -73,8 +73,9 @@ MonoBehaviour:
   cursorSpeedLerp: 1
   spriteList:
   - {fileID: 21300000, guid: b60dc315b69787042ad2ca032ce8de58, type: 3}
-  - {fileID: 21300000, guid: 10d513864c3f110468c28c4008e0e74d, type: 3}
   - {fileID: 21300000, guid: 6cef7618b4e9e89438a835efdc149471, type: 3}
+  - {fileID: 21300000, guid: 5843bcbef4cccab40965e25204157191, type: 3}
+  - {fileID: 21300000, guid: ae5226278c22fa24e82a0e47dd9f8f61, type: 3}
   spriteOffset: 0
 --- !u!212 &212037457990071146
 SpriteRenderer:
