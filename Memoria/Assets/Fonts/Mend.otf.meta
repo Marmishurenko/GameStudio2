@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3ed3e335668469640a3ac2b5367917d1
 timeCreated: 1524174488
 licenseType: Free
+=======
+guid: f3a30aece116a4d11bdc7095cc897d68
+timeCreated: 1524170689
+licenseType: Pro
+>>>>>>> e3279a8f50a0fd9494ccc1a335e734bcd1943de0
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
