@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 guid: 3ed3e335668469640a3ac2b5367917d1
 timeCreated: 1524174488
@@ -8,6 +9,11 @@ guid: f3a30aece116a4d11bdc7095cc897d68
 timeCreated: 1524170689
 licenseType: Pro
 >>>>>>> e3279a8f50a0fd9494ccc1a335e734bcd1943de0
+=======
+guid: 78775b068cc2e4599aaee86e0ee40dbb
+timeCreated: 1524169264
+licenseType: Free
+>>>>>>> Stashed changes
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
