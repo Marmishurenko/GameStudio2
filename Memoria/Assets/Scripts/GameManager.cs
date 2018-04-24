@@ -47,7 +47,13 @@ public class GameManager : MonoBehaviour {
 
         SceneManager.sceneLoaded += FadeIn;
 
-        SceneManager.LoadScene(transition.name);
+        LoadTransitionScene();
+    }
+
+    void Update() {
+        // Debug
+        if (Input.GetKeyDown(KeyCode.N))
+            LoadTransitionScene();
     }
 
     // Call this to end current scene
@@ -69,6 +75,7 @@ public class GameManager : MonoBehaviour {
         }
 
         // Load
+        gameStage++;
         SceneManager.LoadScene(transition.name);
         cursorController.Hide();
         gameState = GAME_STATE.RUNNING;
@@ -93,7 +100,6 @@ public class GameManager : MonoBehaviour {
         }
 
         // Load
-        gameStage++;
         SceneManager.LoadScene(sceneArray[gameStage].name);
         gameState = GAME_STATE.RUNNING;
         cursorController.Show();
