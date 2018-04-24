@@ -22,7 +22,9 @@ public class garbageControl : MonoExtended {
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-
+        if (other.gameObject.layer != LayerMask.NameToLayer("CursorTrigger"))
+            return;
+        
         other.GetComponent<SpriteRenderer>().enabled = false;
         if (other.GetComponentInChildren<TMP_Text>() != null) {
             other.GetComponentInChildren<TMP_Text>().enabled = false;
