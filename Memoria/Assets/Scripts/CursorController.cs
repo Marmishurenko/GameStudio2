@@ -35,7 +35,6 @@ public class CursorController : MonoExtended {
         transform.GetComponent<SpriteRenderer>().enabled = true;
         cursorPosition = Vector2.zero;
         cursorTargetPosition = Vector2.zero;
-        Debug.Log(SceneManager.GetActiveScene().name);
     }
 
     protected override void GameUpdate() {
