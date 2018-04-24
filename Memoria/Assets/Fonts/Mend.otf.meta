@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+guid: 3ed3e335668469640a3ac2b5367917d1
+timeCreated: 1524174488
+licenseType: Free
+=======
+guid: f3a30aece116a4d11bdc7095cc897d68
+timeCreated: 1524170689
+licenseType: Pro
+>>>>>>> e3279a8f50a0fd9494ccc1a335e734bcd1943de0
+=======
+guid: 78775b068cc2e4599aaee86e0ee40dbb
+timeCreated: 1524169264
+licenseType: Free
+>>>>>>> Stashed changes
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mend
+  fontNames:
+  - Mend
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
