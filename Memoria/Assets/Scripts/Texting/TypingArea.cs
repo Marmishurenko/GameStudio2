@@ -24,7 +24,7 @@ public class TypingArea : MonoBehaviour {
     public void ShowBubble(int type) {
         bubbleType = type;
         typingBubble.SetActive(true);
-        typingBubble.GetComponent<SpriteRenderer>().sprite = bubbleSprites[bubbleType % 4];
+        typingBubble.GetComponent<SpriteRenderer>().sprite = bubbleSprites[bubbleType];
     }
 
     public void OnClick() {

@@ -38,9 +38,9 @@ public class TextingLevelManager : MonoExtended {
                 if (messageScript.Length > 0) {
                     GameObject newMessage = Instantiate(messagePrefab, messageWindow.transform);
                     if (messageScript[0] != '*')
-                        newMessage.GetComponent<Message>().Init(false, 'D' - messageScript[0]);
+                        newMessage.GetComponent<Message>().Init(false, 'C' - messageScript[0]);
                     else
-                        newMessage.GetComponent<Message>().Init(false, 'D' - messageScript[1] + 4);
+                        newMessage.GetComponent<Message>().Init(false, 'C' - messageScript[1] + 4);
                 }
                 StartCoroutine("NextMessage");
                 break;
@@ -58,9 +58,9 @@ public class TextingLevelManager : MonoExtended {
                 }
                 if (messageScript.Length > 0) {
                     if (messageScript[0] != '*')
-                        typingArea.ShowBubble('D' - messageScript[0]);
+                        typingArea.ShowBubble('C' - messageScript[0]);
                     else
-                        typingArea.ShowBubble('D' - messageScript[1] + 4);
+                        typingArea.ShowBubble('C' - messageScript[1] + 3);
                 } else {
                     StartCoroutine("NextMessage");
                 }

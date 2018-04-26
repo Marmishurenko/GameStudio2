@@ -35,8 +35,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1366178213642866}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.475, y: 0.2, z: 0.0030405964}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.23, y: -0.72, z: 0.016089706}
+  m_LocalScale: {x: 0.6846558, y: 0.6846555, z: 3.11207}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -53,25 +53,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   girlMessages:
-  - {fileID: 21300000, guid: 25cca4489182ec34d95e4558294ecc0d, type: 3}
-  - {fileID: 21300000, guid: 2455f7c7a49d2ef4bb14528aeb5c155d, type: 3}
-  - {fileID: 21300000, guid: ad3c15cdbab537045bf01dfb65ef46fc, type: 3}
-  - {fileID: 21300000, guid: d6c16fe3a4d75ec4dbd62cf9398d1b8f, type: 3}
-  - {fileID: 21300000, guid: 010cb5568b147464892ea130ee413c0f, type: 3}
-  - {fileID: 21300000, guid: b8694ddc1bd2761448496e362985b7c0, type: 3}
-  - {fileID: 21300000, guid: 89e4efb00264ad44ea2509c04928b889, type: 3}
-  - {fileID: 21300000, guid: d011d8e5aecabe44ca4fb50f3cd836fb, type: 3}
+  - {fileID: 21300000, guid: 7ccb1f844b660944b8416c04a2c3caa8, type: 3}
+  - {fileID: 21300000, guid: a29c4a4519e33c4488199f077f24cda1, type: 3}
+  - {fileID: 21300000, guid: c69c6800df12fef44ba815b0b1f4709a, type: 3}
+  - {fileID: 21300000, guid: 4d6a1403f3a61da429bc5fd4e1d5c441, type: 3}
+  - {fileID: 21300000, guid: cd91bea173b32d24585f554b10433ed7, type: 3}
+  - {fileID: 21300000, guid: 590d6d5e53f5a6d4cbe5eb4a601b4285, type: 3}
   yomiMessages:
-  - {fileID: 21300000, guid: daa8f769f2890974d8f0f77f9d9fd964, type: 3}
-  - {fileID: 21300000, guid: 465af52e9ccc06b47b65eada8717b651, type: 3}
-  - {fileID: 21300000, guid: 96ca723164ad39d4bb1fde1c2829b668, type: 3}
-  - {fileID: 21300000, guid: 4ad60d9daffed854dae373fa9802be0d, type: 3}
-  - {fileID: 21300000, guid: b048d4ab14bf7794aafb58a4b457b2f9, type: 3}
-  - {fileID: 21300000, guid: 4f6d02feeb0f01247a42e09a3b74e105, type: 3}
-  - {fileID: 21300000, guid: d1bd1f9bfcba33d48865fbdd0b0aeebf, type: 3}
-  - {fileID: 21300000, guid: c42e95827a2b647448909ad9e03d9004, type: 3}
-  girlPos: -2.475
-  yomiPos: 2.28
+  - {fileID: 21300000, guid: 0cd51da110022834e8e1567d0ed59fac, type: 3}
+  - {fileID: 21300000, guid: 1ca85df57e46cd14c9a1d8b0b38dc10b, type: 3}
+  - {fileID: 21300000, guid: a2ad45ca224291b418a4d76878091b2f, type: 3}
+  - {fileID: 21300000, guid: 9804f5466a3be194ba0f225cb4b4cc0e, type: 3}
+  - {fileID: 21300000, guid: 0988b81dd1ebb784bb183bb546914b0e, type: 3}
+  - {fileID: 21300000, guid: 8beb3b208662476429c3bc1f8dc81229, type: 3}
+  girlPos: -2.6
+  yomiPos: 2.4
 --- !u!212 &212834062835052042
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -106,7 +102,7 @@ SpriteRenderer:
   m_SortingLayerID: -944748721
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2455f7c7a49d2ef4bb14528aeb5c155d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ccb1f844b660944b8416c04a2c3caa8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

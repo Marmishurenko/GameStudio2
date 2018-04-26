@@ -108,7 +108,7 @@ public class GameManager : MonoBehaviour {
     void FadeIn(Scene scene, LoadSceneMode mode) {
         if (SceneManager.GetActiveScene().name == "Texting") {
             cursorController.spriteOffset = 2;
-            cursorController.transform.localScale = Vector3.one * 1.2f;
+            cursorController.transform.localScale = Vector3.one * 0.6f;
         } else {
             cursorController.spriteOffset = 0;
             cursorController.transform.localScale = Vector3.one * 0.45f;

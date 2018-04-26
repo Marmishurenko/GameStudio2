@@ -11,7 +11,7 @@ public class Message : MonoExtended {
 
     public void Init(bool isYomi, int size) {
         Vector2 frame = girlMessages[size].bounds.extents;
-        frame = frame * 2 * 0.22f + new Vector2(0.4f, 0.2f);
+        frame = frame * 2 * 0.6846558f + new Vector2(0.4f, 0.2f);
         if (isYomi) {
             gameObject.GetComponent<SpriteRenderer>().sprite = yomiMessages[size];
             transform.position = new Vector3(yomiPos - frame.x / 2, -1.46f - frame.y / 2);
