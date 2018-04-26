@@ -5010,13 +5010,13 @@ MonoBehaviour:
   yumiText: {fileID: 1187581204}
   stringsTexts:
   - . . .
-  - with care I clean auntie nena
-  - I tell her how it was hard to wake up
-  - 'I tell her how I miss my girlfriend '
-  - I tell her about my life
-  - with care I wash her
-  - "I ask \u201Cauntie, how do you feel today\u201D"
-  - "in Tagalog she calls me \u201Cthe help\u201D "
+  - 'auntie nena asks today '
+  - "\u201Care you okay, dear?\u201D "
+  - 'I wash auntie nena with care '
+  - 'auntie nena tells me  '
+  - "\u201Cyou look sad today\u201D "
+  - '...'
+  - I wash auntie nena with care
   - '...'
   fadeTime: 3
 --- !u!114 &2068484123
