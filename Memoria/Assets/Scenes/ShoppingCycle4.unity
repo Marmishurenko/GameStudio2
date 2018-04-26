@@ -16197,13 +16197,12 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 0
   lines:
-  - "I can\u2019t remember if I always hated grocery stores..."
-  - "Funny, I can\u2019t remember when or what I ate last time..."
-  - 'Is this Brian from high school over there? '
-  - "\u2014 Mimi? Hi! It\u2019s been a while!How\u2026"
-  - "Ok\u2026I can just pretend I\u2019m listening to the music and don\u2019t hear
-    him."
-  - "I think it worked\u2026"
+  - If I run into Brian one more time...
+  - "I\u2019m not sure."
+  - "Maybe that wouldn\u2019t be so bad."
+  - "\"Yumi! Where are you going? Let\u2019s catch up, grab a beer together!\""
+  - Maybe I could use a friend.
+  - Maybe...
   - '...'
 --- !u!61 &1534559393
 BoxCollider2D:
