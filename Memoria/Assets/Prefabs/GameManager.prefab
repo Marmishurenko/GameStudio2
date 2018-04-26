@@ -169,8 +169,8 @@ MonoBehaviour:
   - {fileID: 102900000, guid: 980745a3c41884637899004a9d1cfc9d, type: 3}
   - {fileID: 102900000, guid: 2fcd5443561d243399939a0bc3e554be, type: 3}
   - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
+  - {fileID: 102900000, guid: 34eef74c73fab4149898be10138b2180, type: 3}
   - {fileID: 102900000, guid: 5e113ac9b1bd548079d22f99759a5c99, type: 3}
-  - {fileID: 102900000, guid: 9c1bdcf4003ef4ec7a1c5470bd76c31f, type: 3}
   - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
   - {fileID: 102900000, guid: 22b05f5b2ff8345eeb9fd03bf2d74ea6, type: 3}
   - {fileID: 102900000, guid: a2c8de6976c324a52b6cdbb295427ba3, type: 3}
@@ -178,9 +178,9 @@ MonoBehaviour:
   textingSceneStage: 0
   cursorPrefab: {fileID: 1238479118343186, guid: 7622f09ef7cce49d3b044941489d91ea,
     type: 2}
-  blackScreen: {fileID: 0}
-  FADE_IN_TIME: 0
-  FADE_OUT_TIME: 0
+  blackScreen: {fileID: 212613330979767924}
+  FADE_IN_TIME: 0.5
+  FADE_OUT_TIME: 0.5
 --- !u!212 &212613330979767924
 SpriteRenderer:
   m_ObjectHideFlags: 1
