@@ -9,14 +9,29 @@ EditorBuildSettings:
     path: Assets/Scenes/main.unity
     guid: c712d4fb27a24954fba5a86ce1323351
   - enabled: 1
-    path: Assets/Scenes/Transition.unity
-    guid: 792e371cc56ecff4ebe2705f55597f1b
+    path: Assets/Scenes/CleaningRoomCycle1.unity
+    guid: 34eef74c73fab4149898be10138b2180
   - enabled: 1
-    path: Assets/Scenes/Shopping.unity
-    guid: 2fcd5443561d243399939a0bc3e554be
+    path: Assets/Scenes/CleaningRoomCycle2.unity
+    guid: 63daa444f529abd47a596c65ef2717d1
   - enabled: 1
     path: Assets/Scenes/CleaningRoomCycle3.unity
     guid: a2c8de6976c324a52b6cdbb295427ba3
+  - enabled: 1
+    path: Assets/Scenes/CleaningRoomCycle4.unity
+    guid: 0c079340725b53d43b8795e972f216a6
+  - enabled: 1
+    path: Assets/Scenes/ShoppingCycle1.unity
+    guid: 07be5e9a521694426a55230a2e9531ba
+  - enabled: 1
+    path: Assets/Scenes/ShoppingCycle2.unity
+    guid: deaf0cd1235a3409384df77ce5aa6be3
+  - enabled: 1
+    path: Assets/Scenes/ShoppingCycle3.unity
+    guid: 2f46540f266ff40e580311471fb537cc
+  - enabled: 1
+    path: Assets/Scenes/ShoppingCycle4.unity
+    guid: 6b0f2990959ba4082aa42307f2a29eff
   - enabled: 1
     path: Assets/Scenes/ShowerCycle1.unity
     guid: 980745a3c41884637899004a9d1cfc9d
@@ -27,8 +42,11 @@ EditorBuildSettings:
     path: Assets/Scenes/ShowerCycle3.unity
     guid: 22b05f5b2ff8345eeb9fd03bf2d74ea6
   - enabled: 1
+    path: Assets/Scenes/ShowerCycle4.unity
+    guid: 9dddccc8b4e54425d953e0b8168b5d29
+  - enabled: 1
     path: Assets/Scenes/Texting.unity
     guid: 4197831f4cfd2a941bfe796efc41daf8
   - enabled: 1
-    path: Assets/Scenes/CleaningRoomCycle1.unity
-    guid: 34eef74c73fab4149898be10138b2180
+    path: Assets/Scenes/Transition.unity
+    guid: 792e371cc56ecff4ebe2705f55597f1b

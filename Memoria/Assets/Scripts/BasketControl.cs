@@ -32,7 +32,8 @@ public class BasketControl : MonoExtended {
         other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         Destroy(other.gameObject, 1.0f);
         itemCounter++;
-        LerpCam();
+        if (itemCounter < lines.Length)
+            LerpCam();
     }
     private void LerpCam() {
         if (itemCounter > 3) {
