@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using TMPro;
 
 public class BasketControl : MonoExtended {
+    public UnityEvent OnBasketEnterEvent;
     int itemCounter = 0;
     public Camera cam;
     public Vector3 target;
@@ -19,7 +21,7 @@ public class BasketControl : MonoExtended {
     void Start() {
         float height = 2 * cam.orthographicSize;
         camWidth = height * cam.aspect;
-        target = new Vector3(camWidth, 0, -10);//hardcoded, haha!
+        target = new Vector3(camWidth, 0, -10);
     }
     protected override void GameUpdate() {
         if (itemCounter == lines.Length) {
@@ -28,12 +30,16 @@ public class BasketControl : MonoExtended {
         }
     }
     void OnTriggerEnter2D(Collider2D other) {
+        OnBasketEnterEvent.Invoke();
         other.transform.SetParent(gameObject.transform);
         other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         Destroy(other.gameObject, 1.0f);
         itemCounter++;
         if (itemCounter < lines.Length)
             LerpCam();
+    }
+    public void OnBasketEnter(){
+               
     }
     private void LerpCam() {
         if (itemCounter > 3) {
