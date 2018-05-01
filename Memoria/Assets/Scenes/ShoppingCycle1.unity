@@ -16218,6 +16218,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7bfb5435e11c4ed5872e917858e0476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnBasketEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 740159925}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   cam: {fileID: 1833888592}
   target: {x: 0, y: 0, z: 0}
   speed: 2.86
