@@ -38,6 +38,7 @@ public class BasketControl : MonoExtended {
     private void LerpCam() {
         if (itemCounter > 3) {
             speed = speed / (float)1.5f;
+			// Add shopping cart movment sound here / You have to lerp sound maybe change the pitch / maybe work with playback speed
         }
         StartCoroutine(LerpToPosition(speed, target));
         target = new Vector3(target.x + camWidth, target.y, target.z);
