@@ -13,10 +13,15 @@ public class SpongeControl : MonoBehaviour {
     public UnityEvent OnBucketEnter;
     public UnityEvent OnBucketExit;
 
+	private AudioSource audioSource; 
+	public AudioClip[] bucketEnter; 
+	public AudioClip bucketEnterClip; 
 
 	
     // Use this for initialization
 	void Start () {
+
+		AudioSource audioSource = gameObject.GetComponent<AudioSource> ();  
 		
 	}
 
@@ -36,6 +41,12 @@ public class SpongeControl : MonoBehaviour {
         if (other.tag == "Bucket")
         {
             OnBucketEnter.Invoke();
+
+			int index = Random.Range (0, bucketEnter.Length); 
+			bucketEnterClip = bucketEnter [index]; 
+			audioSource.clip = bucketEnterClip; 
+			audioSource.Play (); 
+
         }
 	}
 

@@ -80,7 +80,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: afd8ecd08d8d8461eb34ead66178143c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 772db22c961ad40a0a8379a90d2148df, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -171,10 +171,17 @@ MonoBehaviour:
   - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
   - {fileID: 102900000, guid: 07be5e9a521694426a55230a2e9531ba, type: 3}
   - {fileID: 102900000, guid: 5e113ac9b1bd548079d22f99759a5c99, type: 3}
+  - {fileID: 102900000, guid: 63daa444f529abd47a596c65ef2717d1, type: 3}
   - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
+  - {fileID: 102900000, guid: deaf0cd1235a3409384df77ce5aa6be3, type: 3}
   - {fileID: 102900000, guid: 22b05f5b2ff8345eeb9fd03bf2d74ea6, type: 3}
   - {fileID: 102900000, guid: a2c8de6976c324a52b6cdbb295427ba3, type: 3}
   - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
+  - {fileID: 102900000, guid: 2f46540f266ff40e580311471fb537cc, type: 3}
+  - {fileID: 102900000, guid: 9dddccc8b4e54425d953e0b8168b5d29, type: 3}
+  - {fileID: 102900000, guid: 0c079340725b53d43b8795e972f216a6, type: 3}
+  - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
+  - {fileID: 102900000, guid: 6b0f2990959ba4082aa42307f2a29eff, type: 3}
   textingSceneStage: 0
   cursorPrefab: {fileID: 1238479118343186, guid: 7622f09ef7cce49d3b044941489d91ea,
     type: 2}

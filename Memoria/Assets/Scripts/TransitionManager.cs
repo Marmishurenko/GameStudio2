@@ -16,7 +16,9 @@ public class TransitionManager : MonoExtended {
     }
 
     IEnumerator Transition() {
-        string s = textList[gameManager.gameStage].Replace("|", "\n");
+        string s = "";
+        if (gameManager.gameStage < textList.Count)
+            s = textList[gameManager.gameStage].Replace("|", "\n");
         textUI.SetText(s);
         yield return new WaitForSeconds(0.5f);
 

@@ -58,13 +58,14 @@ public class GameManager : MonoBehaviour {
 
     // Call this to end current scene
     public virtual void LoadTransitionScene() {
-        StartCoroutine("EnterTransitionScene");
+        StartCoroutine(EnterTransitionScene());
     }
 
     IEnumerator EnterTransitionScene() {
         gameState = GAME_STATE.PAUSED;
 
         // Fade out
+        transform.position = (Vector2)Camera.main.transform.position;
         float timer = 0;
         while (timer < FADE_OUT_TIME) {
             timer += 0.05f;
@@ -83,7 +84,7 @@ public class GameManager : MonoBehaviour {
 
     // Call this to start the next scene
     public void LoadNextGameScene() {
-        StartCoroutine("EnterNextGameScene");
+        StartCoroutine(EnterNextGameScene());
     }
 
     IEnumerator EnterNextGameScene() {
@@ -113,7 +114,7 @@ public class GameManager : MonoBehaviour {
             cursorController.spriteOffset = 0;
             cursorController.transform.localScale = Vector3.one * 0.45f;
         }
-        StartCoroutine("CoroutineFadeIn");
+        StartCoroutine(CoroutineFadeIn());
     }
 
     IEnumerator CoroutineFadeIn() {
