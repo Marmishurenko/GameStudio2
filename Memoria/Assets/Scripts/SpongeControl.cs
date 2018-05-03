@@ -42,10 +42,10 @@ public class SpongeControl : MonoBehaviour {
         {
             OnBucketEnter.Invoke();
 
-			int index = Random.Range (0, bucketEnter.Length); 
-			bucketEnterClip = bucketEnter [index]; 
-			audioSource.clip = bucketEnterClip; 
-			audioSource.Play (); 
+			//int index = Random.Range (0, bucketEnter.Length); 
+			//bucketEnterClip = bucketEnter [index]; 
+			//audioSource.clip = bucketEnterClip; 
+			//audioSource.Play (); 
 
         }
 	}

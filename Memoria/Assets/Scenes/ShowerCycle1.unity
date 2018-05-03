@@ -5093,7 +5093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wipingSound: {fileID: 551367909}
-  spongeRB: {fileID: 0}
+  spongeRB: {fileID: 1220505073}
   newVolume: 0
 --- !u!1 &1679774439
 GameObject:
