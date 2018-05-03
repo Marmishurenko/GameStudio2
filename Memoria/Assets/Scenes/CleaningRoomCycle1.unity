@@ -755,9 +755,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.7093784, y: -3.7730083}
+  m_Offset: {x: -1.2021476, y: -2.64804}
   serializedVersion: 2
-  m_Radius: 5.3841615
+  m_Radius: 6.3216352
 --- !u!114 &296330890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,7 +811,7 @@ SpriteRenderer:
   m_Size: {x: 16.84, y: 9.78}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 --- !u!4 &296330892
 Transform:

@@ -6,6 +6,9 @@ public class SetBackToPlace : MonoBehaviour {
 
     private Vector3 initPos;
     bool isBask = false;
+    private GameObject go;
+    private AudioSource aus;
+   
    
 
     // Use this for initialization
@@ -13,6 +16,7 @@ public class SetBackToPlace : MonoBehaviour {
     {
        
         initPos = gameObject.transform.position;
+        go = GameObject.Find("SetBackAS");
     }
 
     private void Update()
@@ -27,6 +31,9 @@ public class SetBackToPlace : MonoBehaviour {
             gameObject.transform.position = initPos;
         }
         gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
+        if(go){
+            go.GetComponent<AudioSource>().Play();
+        }
 
     }
 
