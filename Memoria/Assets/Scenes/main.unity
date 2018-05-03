@@ -120,6 +120,16 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: backgroundMusicList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -152,6 +162,37 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: backgroundMusicList.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 772db22c961ad40a0a8379a90d2148df, type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: backgroundMusicList.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f2ab1fc969c84ed78e4bbf87c431356, type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: backgroundMusicList.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: dfcbed0473b2c4785b37adf50fc3fa47, type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: backgroundMusicList.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 17c1c1ec69bac4d0fa551d4420c47d50, type: 3}
+    - target: {fileID: 82451673600528430, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[16]
+      value: 
+      objectReference: {fileID: 102900000, guid: 9cfc699a0c26d43bf82250f6b0153551,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
   m_IsPrefabParent: 0

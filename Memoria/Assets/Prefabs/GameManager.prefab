@@ -182,6 +182,7 @@ MonoBehaviour:
   - {fileID: 102900000, guid: 0c079340725b53d43b8795e972f216a6, type: 3}
   - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
   - {fileID: 102900000, guid: 6b0f2990959ba4082aa42307f2a29eff, type: 3}
+  - {fileID: 102900000, guid: 9cfc699a0c26d43bf82250f6b0153551, type: 3}
   textingSceneStage: 0
   cursorPrefab: {fileID: 1238479118343186, guid: 7622f09ef7cce49d3b044941489d91ea,
     type: 2}
