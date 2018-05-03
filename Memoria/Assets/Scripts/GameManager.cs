@@ -105,6 +105,14 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    IEnumerator SwitchBgMusic(int musicIndex) {
+        AudioSource audio = gameObject.GetComponent<AudioSource>();
+        while (audio.volume > 0.1f) {
+            audio.volume -= 0.1f;
+            yield return new WaitForSeconds(0.1f);  
+        }
+    }
+
     // Call this to start the next scene
     public void LoadNextGameScene() {
         StartCoroutine(EnterNextGameScene());
