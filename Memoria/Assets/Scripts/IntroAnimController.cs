@@ -4,18 +4,12 @@ using UnityEngine;
 
 public class IntroAnimController : MonoBehaviour {
 
-    // Use this for initialization
-    void Start() {
-
+    public void WaitForClick() {
+        GameObject.Find("IntroManager").GetComponent<IntroManager>().isWaitForClick = true;
     }
 
-    // Update is called once per frame
-    void Update() {
-        if (Input.GetKeyDown(KeyCode.Space))
-            gameObject.GetComponent<Animator>().enabled = true;
-    }
-
-    public void Pause() {
+    public void PauseAndWaitForClick() {
         gameObject.GetComponent<Animator>().enabled = false;
+        WaitForClick();
     }
 }

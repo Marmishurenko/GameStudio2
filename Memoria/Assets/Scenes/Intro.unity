@@ -1971,6 +1971,8 @@ MonoBehaviour:
   scene2Anim: {fileID: 1499139878}
   scene3Anim: {fileID: 1582222284}
   scene4Anim: {fileID: 1778181016}
+  BUS_FADEOUT_TIME: 1
+  isWaitForClick: 0
 --- !u!4 &1408662468
 Transform:
   m_ObjectHideFlags: 0
@@ -2000,7 +2002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1499139877
 Transform:
   m_ObjectHideFlags: 0
@@ -2064,7 +2066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1582222283
 Transform:
   m_ObjectHideFlags: 0
@@ -2244,7 +2246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1778181015
 Transform:
   m_ObjectHideFlags: 0
