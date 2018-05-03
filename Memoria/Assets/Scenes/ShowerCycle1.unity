@@ -5670,7 +5670,7 @@ MonoBehaviour:
   - I tell her about my friends
   - I tell her about my life
   - with care I wash her
-  - "I ask \u201Cauntie, how do you feel today\u201D"
+  - "\u201Cauntie, how do you feel today\u201D"
   - "in Tagalog she grumbles \u201Cbe quiet\u201D"
   - '...'
   fadeTime: 3
