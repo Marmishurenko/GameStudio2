@@ -87,30 +87,30 @@ public class GameManager : MonoBehaviour {
         // Change bg music
         switch (gameStage) {
             case 0:
-                gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[0];
-                gameObject.GetComponent<AudioSource>().Play();
+                SwitchBgMusic(0);
                 break;
             case 4:
-                gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[1];
-                gameObject.GetComponent<AudioSource>().Play();
+                SwitchBgMusic(1);
                 break;
             case 8:
-                gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[2];
-                gameObject.GetComponent<AudioSource>().Play();
+                SwitchBgMusic(2);
                 break;
             case 12:
-                gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[3];
-                gameObject.GetComponent<AudioSource>().Play();
+                SwitchBgMusic(3);
                 break;
         }
     }
 
     IEnumerator SwitchBgMusic(int musicIndex) {
         AudioSource audio = gameObject.GetComponent<AudioSource>();
-        while (audio.volume > 0.1f) {
-            audio.volume -= 0.1f;
-            yield return new WaitForSeconds(0.1f);  
+        float volume = 1;
+        while (volume > 0) {
+            volume -= 1 * Time.deltaTime;
+            audio.volume = volume;
+            yield return null;
         }
+        gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[musicIndex];
+        gameObject.GetComponent<AudioSource>().Play();
     }
 
     // Call this to start the next scene
