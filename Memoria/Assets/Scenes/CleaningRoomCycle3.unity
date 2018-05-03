@@ -820,7 +820,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: It feels good to get some stuff out the way.
+  m_text: things. piling. building.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
@@ -1571,7 +1571,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: I just have to take it one day at a time I guess
+  m_text: west coast dream
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
@@ -1768,7 +1768,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "See, this isn\u2019t that hard."
+  m_text: the world, it fell on my body
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
@@ -1965,7 +1965,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Try not to freak out.
+  m_text: 'regressing. stagnating. missing. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
@@ -2289,7 +2289,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: my bi-weekly dinner
+  m_text: forgetting that I am living
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
