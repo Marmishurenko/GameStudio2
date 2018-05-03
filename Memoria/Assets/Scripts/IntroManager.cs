@@ -15,7 +15,7 @@ public class IntroManager : MonoBehaviour {
     public bool isWaitForClick = false;
 
     void Start() {
-        cameraAnim.enabled = false;
+        cameraAnim.enabled = true;
         scene1Anim.enabled = true;
         scene2Anim.enabled = false;
         scene3Anim.enabled = false;
@@ -27,25 +27,34 @@ public class IntroManager : MonoBehaviour {
             case 0:
                 if (isWaitForClick && Input.GetMouseButtonDown(0)) {
                     StartCoroutine(BusFadeOut());
-                    introStage++;
+                    NextStage();
                 }
                 break;
             case 1:
                 if (isWaitForClick && Input.GetMouseButtonDown(0)) {
-                    introStage++;
+                    NextStage();
                 }
                 break;
             case 2:
                 if (isWaitForClick && Input.GetMouseButtonDown(0)) {
-                    introStage++;
+                    NextStage();
                 }
                 break;
             case 3:
                 if (isWaitForClick && Input.GetMouseButtonDown(0)) {
-                    introStage++;
+                    NextStage();
                 }
                 break;
         }
+    }
+
+    void NextStage() {
+        introStage++;
+        cameraAnim.enabled = true;
+        scene1Anim.enabled = true;
+        scene2Anim.enabled = true;
+        scene3Anim.enabled = true;
+        scene4Anim.enabled = true;
     }
 
     IEnumerator BusFadeOut() {
