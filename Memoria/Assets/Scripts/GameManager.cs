@@ -69,13 +69,13 @@ public class GameManager : MonoBehaviour {
 
         // Fade out
         transform.position = (Vector2)Camera.main.transform.position;
-        float timer = 0;
-        while (timer < FADE_OUT_TIME) {
-            timer += 0.05f;
+        float alpha = 0;
+        while (alpha < 1) {
+            alpha += 1 / FADE_OUT_TIME * Time.deltaTime;
             Color c = blackScreen.color;
-            c.a = timer / FADE_OUT_TIME;
+            c.a = alpha;
             blackScreen.color = c;
-            yield return new WaitForSeconds(0.05f);
+            yield return null;
         }
 
         // Load
@@ -87,16 +87,16 @@ public class GameManager : MonoBehaviour {
         // Change bg music
         switch (gameStage) {
             case 0:
-                SwitchBgMusic(0);
+                StartCoroutine(SwitchBgMusic(0));
                 break;
             case 4:
-                SwitchBgMusic(1);
+                StartCoroutine(SwitchBgMusic(1));
                 break;
             case 8:
-                SwitchBgMusic(2);
+                StartCoroutine(SwitchBgMusic(2));
                 break;
             case 12:
-                SwitchBgMusic(3);
+                StartCoroutine(SwitchBgMusic(3));
                 break;
         }
     }
@@ -105,11 +105,12 @@ public class GameManager : MonoBehaviour {
         AudioSource audio = gameObject.GetComponent<AudioSource>();
         float volume = 1;
         while (volume > 0) {
-            volume -= 1 * Time.deltaTime;
+            volume -= 1f / 2 * Time.deltaTime;
             audio.volume = volume;
             yield return null;
         }
         gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[musicIndex];
+        gameObject.GetComponent<AudioSource>().volume = 1;
         gameObject.GetComponent<AudioSource>().Play();
     }
 
@@ -122,13 +123,13 @@ public class GameManager : MonoBehaviour {
         gameState = GAME_STATE.PAUSED;
 
         // Fade out
-        float timer = 0;
-        while (timer < FADE_OUT_TIME) {
-            timer += 0.05f;
+        float alpha = 0;
+        while (alpha < 1) {
+            alpha += 1 / FADE_OUT_TIME * Time.deltaTime;
             Color c = blackScreen.color;
-            c.a = timer / FADE_OUT_TIME;
+            c.a = alpha;
             blackScreen.color = c;
-            yield return new WaitForSeconds(0.05f);
+            yield return null;
         }
 
         // Load
@@ -149,13 +150,13 @@ public class GameManager : MonoBehaviour {
     }
 
     IEnumerator CoroutineFadeIn() {
-        float timer = 0;
-        while (timer < FADE_IN_TIME) {
-            timer += 0.05f;
+        float alpha = 1;
+        while (alpha > 0) {
+            alpha -= 1 / FADE_IN_TIME * Time.deltaTime;
             Color c = blackScreen.color;
-            c.a = 1 - timer / FADE_IN_TIME;
+            c.a = alpha;
             blackScreen.color = c;
-            yield return new WaitForSeconds(0.05f);
+            yield return null;
         }
     }
 }
