@@ -84,7 +84,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -188,6 +188,11 @@ MonoBehaviour:
   blackScreen: {fileID: 212613330979767924}
   FADE_IN_TIME: 0.5
   FADE_OUT_TIME: 0.5
+  backgroundMusicList:
+  - {fileID: 8300000, guid: 772db22c961ad40a0a8379a90d2148df, type: 3}
+  - {fileID: 8300000, guid: dfcbed0473b2c4785b37adf50fc3fa47, type: 3}
+  - {fileID: 8300000, guid: 8f2ab1fc969c84ed78e4bbf87c431356, type: 3}
+  - {fileID: 8300000, guid: 17c1c1ec69bac4d0fa551d4420c47d50, type: 3}
 --- !u!212 &212613330979767924
 SpriteRenderer:
   m_ObjectHideFlags: 1

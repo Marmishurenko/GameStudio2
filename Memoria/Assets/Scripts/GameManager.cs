@@ -27,6 +27,9 @@ public class GameManager : MonoBehaviour {
     [SerializeField] float FADE_IN_TIME;
     [SerializeField] float FADE_OUT_TIME;
 
+    [Header("Bg Music")]
+    [SerializeField] AudioClip[] backgroundMusicList;
+
     CursorController cursorController;
 
     void Awake() {
@@ -80,6 +83,26 @@ public class GameManager : MonoBehaviour {
         SceneManager.LoadScene(transition.name);
         cursorController.Hide();
         gameState = GAME_STATE.RUNNING;
+
+        // Change bg music
+        switch (gameStage) {
+            case 0:
+                gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[0];
+                gameObject.GetComponent<AudioSource>().Play();
+                break;
+            case 4:
+                gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[1];
+                gameObject.GetComponent<AudioSource>().Play();
+                break;
+            case 8:
+                gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[2];
+                gameObject.GetComponent<AudioSource>().Play();
+                break;
+            case 12:
+                gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[3];
+                gameObject.GetComponent<AudioSource>().Play();
+                break;
+        }
     }
 
     // Call this to start the next scene
