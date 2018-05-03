@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class IntroManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    [SerializeField] Animator cameraAnim;
+    [SerializeField] Animator scene1Anim;
+    [SerializeField] Animator scene2Anim;
+    [SerializeField] Animator scene3Anim;
+    [SerializeField] Animator scene4Anim;
+
+    void Start () {
 		
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		if (Input.GetMouseButtonDown(0)) {
 
         }
-
     }
 }
