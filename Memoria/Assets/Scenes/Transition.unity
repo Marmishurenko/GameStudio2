@@ -252,8 +252,9 @@ MonoBehaviour:
     elated\r\n pieces of me isolated\r\n \r\n with no way to cope\r\n no sparkle to
     show\r\n nothing left that is free, elated\r\n pieces of me deflated\r\n
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
+  m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
