@@ -159,6 +159,13 @@ public class GameManager : MonoBehaviour {
             yield return null;
         }
     }
+    public void RunLogoScene()
+    {
+        
+            Destroy(cursorPrefab);
+            LoadNextGameScene();
+        }
+  
 }
 
 
