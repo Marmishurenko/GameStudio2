@@ -1919,10 +1919,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 212449961552729910, guid: ee6e1924ad3eb4ffb9fa0b8fb7e0e1a6,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 20
+    - target: {fileID: 1294805146026514, guid: ee6e1924ad3eb4ffb9fa0b8fb7e0e1a6, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ee6e1924ad3eb4ffb9fa0b8fb7e0e1a6, type: 2}
