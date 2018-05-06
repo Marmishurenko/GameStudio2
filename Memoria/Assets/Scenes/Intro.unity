@@ -1972,6 +1972,7 @@ MonoBehaviour:
   scene3Anim: {fileID: 1582222284}
   scene4Anim: {fileID: 1778181016}
   BUS_FADEOUT_TIME: 1
+  CITY_BG_FADEOUT_TIME: 1
   isWaitForClick: 0
 --- !u!4 &1408662468
 Transform:
