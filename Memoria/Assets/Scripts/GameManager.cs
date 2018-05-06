@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour {
 
         // Change bg music
         switch (gameStage) {
-            case 1:
+            case 2:
                 StartCoroutine(SwitchBgMusic(0));
                 break;
             case 6:
