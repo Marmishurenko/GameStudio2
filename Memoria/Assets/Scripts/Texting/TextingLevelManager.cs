@@ -12,6 +12,7 @@ public class TextingLevelManager : MonoExtended {
     [SerializeField] TypingArea typingArea;
     [SerializeField] TextingNarrative narrative;
     [SerializeField] TextingBackButton backButton;
+    [SerializeField] Transform overlayEffect;
 
     string[] conversationScripts;
 
@@ -23,6 +24,8 @@ public class TextingLevelManager : MonoExtended {
         conversationScripts = textingScripts[gameManager.textingSceneStage].Split('/');
         messageIndex = 0;
         StartCoroutine("NextMessage");
+
+        overlayEffect.GetChild(gameManager.textingSceneStage).gameObject.SetActive(true);
     }
 
     IEnumerator NextMessage() {
