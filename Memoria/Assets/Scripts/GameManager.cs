@@ -30,30 +30,35 @@ public class GameManager : MonoBehaviour {
     [Header("Bg Music")]
     [SerializeField] AudioClip[] backgroundMusicList;
 
-    CursorController cursorController;
+    CursorController cursorController = null;
 
     void Awake() {
         if (GameObject.FindGameObjectsWithTag("GameManager").Length > 1) {
             Destroy(gameObject);
             return;
         }
+
         GameObject cursor = Instantiate(cursorPrefab);
         cursorController = cursor.GetComponent<CursorController>();
-        cursorController.Hide();
+        cursorController.spriteOffset = 2;
+        cursorController.transform.localScale = Vector3.one * 0.6f;
     }
 
     void Start() {
         DontDestroyOnLoad(gameObject);
         gameState = GAME_STATE.RUNNING;
-        gameStage = -1;
+        gameStage = 0;
         textingSceneStage = 0;
 
         SceneManager.sceneLoaded += FadeIn;
-
-        LoadTransitionScene();
     }
 
     void Update() {
+        if (Input.GetKeyDown(KeyCode.R)) {
+            gameStage = -1;
+            LoadTransitionScene();
+        }
+
         // Debug
         if (Input.GetKeyDown(KeyCode.N))
             LoadTransitionScene();
@@ -80,22 +85,25 @@ public class GameManager : MonoBehaviour {
 
         // Load
         gameStage++;
+        if (gameStage == sceneArray.Length)
+            gameStage = 0;
         SceneManager.LoadScene(transition.name);
-        cursorController.Hide();
+        if (cursorController != null)
+            cursorController.Hide();
         gameState = GAME_STATE.RUNNING;
 
         // Change bg music
         switch (gameStage) {
-            case 0:
+            case 1:
                 StartCoroutine(SwitchBgMusic(0));
                 break;
-            case 4:
+            case 6:
                 StartCoroutine(SwitchBgMusic(1));
                 break;
-            case 8:
+            case 10:
                 StartCoroutine(SwitchBgMusic(2));
                 break;
-            case 12:
+            case 14:
                 StartCoroutine(SwitchBgMusic(3));
                 break;
         }
@@ -135,11 +143,14 @@ public class GameManager : MonoBehaviour {
         // Load
         SceneManager.LoadScene(sceneArray[gameStage].name);
         gameState = GAME_STATE.RUNNING;
-        cursorController.Show();
+        if (cursorController != null)
+            cursorController.Show();
     }
 
     void FadeIn(Scene scene, LoadSceneMode mode) {
-        if (SceneManager.GetActiveScene().name == "Texting") {
+        if (SceneManager.GetActiveScene().name == "LogoStart"
+            || SceneManager.GetActiveScene().name == "Intro"
+            || SceneManager.GetActiveScene().name == "Texting") {
             cursorController.spriteOffset = 2;
             cursorController.transform.localScale = Vector3.one * 0.6f;
         } else {
@@ -159,13 +170,12 @@ public class GameManager : MonoBehaviour {
             yield return null;
         }
     }
-    public void RunLogoScene()
-    {
-        
-            Destroy(cursorPrefab);
-            LoadNextGameScene();
-        }
-  
+    public void RunLogoScene() {
+
+        Destroy(cursorPrefab);
+        LoadNextGameScene();
+    }
+
 }
 
 
