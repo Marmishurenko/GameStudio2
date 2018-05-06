@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IntroManager : MonoBehaviour {
+public class IntroManager : MonoExtended {
 
     [SerializeField] Animator cameraAnim;
     [SerializeField] Animator scene1Anim;
@@ -42,6 +42,11 @@ public class IntroManager : MonoBehaviour {
                 if (isWaitForClick && Input.GetMouseButtonDown(0)) {
                     scene4Anim.enabled = true;
                     NextStage();
+                }
+                break;
+            case 4:
+                if (isWaitForClick && Input.GetMouseButtonDown(0)) {
+                    gameManager.LoadTransitionScene();
                 }
                 break;
             default:
@@ -87,5 +92,8 @@ public class IntroManager : MonoBehaviour {
             }
             yield return null;
         }
+    }
+
+    protected override void GameUpdate() {
     }
 }
