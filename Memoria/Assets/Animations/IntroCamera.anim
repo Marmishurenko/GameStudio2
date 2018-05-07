@@ -351,8 +351,22 @@ AnimationClip:
   m_GenerateMotionCurves: 0
   m_Events:
   - time: 0
+    functionName: PlaySound
+    data: BusSound
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.23333333
     functionName: WaitForClick
     data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.3
+    functionName: StopSound
+    data: BusSound
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
@@ -364,6 +378,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.8666667
+    functionName: PlaySound
+    data: LeavesSound
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 2.1333334
     functionName: WaitForClick
     data: 
@@ -371,9 +392,30 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 3.9333334
+    functionName: PlaySound
+    data: PiggyBankSound
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 4.9
     functionName: WaitForClick
     data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 5
+    functionName: StopSound
+    data: LeavesSound
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.766667
+    functionName: PlaySound
+    data: AmericaSound
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
