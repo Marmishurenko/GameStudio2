@@ -26,11 +26,10 @@ public class IntroAnimController : MonoBehaviour {
     }
 
     IEnumerator SoundFadeOut(AudioSource audio) {
-        float volume = 1;
+        float volume = audio.volume;
         while (volume > 0) {
             volume -= 1 / 1 * Time.deltaTime;
             audio.volume = volume;
-            Debug.Log(volume);
             yield return null;
         }
     }
