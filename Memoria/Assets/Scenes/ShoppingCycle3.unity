@@ -12542,6 +12542,11 @@ Prefab:
       value: 
       objectReference: {fileID: 1238479118343186, guid: 7622f09ef7cce49d3b044941489d91ea,
         type: 2}
+    - target: {fileID: 82451673600528430, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
   m_IsPrefabParent: 0
