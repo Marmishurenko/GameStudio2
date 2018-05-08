@@ -4705,8 +4705,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 5.75
+  m_fontSizeBase: 5.75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5136,6 +5136,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e606c12f721f54d5faeee017738db308, type: 3}
   - {fileID: 8300000, guid: 107fd0576426e43d6b8e2a514d4da93d, type: 3}
   bucketEnterClip: {fileID: 8300000, guid: 1c2fd8a8b5a1d4377a2928c2536185f7, type: 3}
+  rubSound: {fileID: 0}
 --- !u!50 &1220505073
 Rigidbody2D:
   serializedVersion: 4
