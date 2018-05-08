@@ -7651,7 +7651,7 @@ Prefab:
     - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
         type: 2}
       propertyPath: sceneArray.Array.size
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
       propertyPath: m_LocalPosition.x
@@ -7695,7 +7695,19 @@ Prefab:
         type: 2}
       propertyPath: sceneArray.Array.data[17]
       value: 
-      objectReference: {fileID: 102900000, guid: 9cfc699a0c26d43bf82250f6b0153551,
+      objectReference: {fileID: 102900000, guid: 27f23b4f8b84f4480a87337c321c4614,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[9]
+      value: 
+      objectReference: {fileID: 102900000, guid: 6e1cc921a36f84408852200caab1be77,
+        type: 3}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[13]
+      value: 
+      objectReference: {fileID: 102900000, guid: b264ef9ab1e044122a57769ee692a399,
         type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
