@@ -18,11 +18,11 @@ public class TransitionManager : MonoExtended {
 
     IEnumerator Transition() {
         // Set text
-        string s = "";
+        string text = "";
         if (gameManager.gameStage < textList.Count)
-            s = textList[gameManager.gameStage].Replace("|", "\n");
-        textUI.SetText(s);
-
+            text = textList[gameManager.gameStage].Replace("|", "\n");
+        textUI.SetText(text);
+        
         // Set yumi hair
         int gameCycle = -1;
         switch (gameManager.gameStage) {
@@ -45,7 +45,7 @@ public class TransitionManager : MonoExtended {
         yield return new WaitForSeconds(0.5f);
 
         // No text to show
-        if (textUI.text.Length == 0) {
+        if (text.Length == 0) {
             yield return new WaitForSeconds(0.5f);
             gameManager.LoadNextGameScene();
             yield break;
