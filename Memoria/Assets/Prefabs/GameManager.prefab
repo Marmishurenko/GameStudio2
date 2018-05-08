@@ -164,27 +164,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameState: 0
   gameStage: 0
-  transition: {fileID: 102900000, guid: 792e371cc56ecff4ebe2705f55597f1b, type: 3}
+  transition: Transition
   sceneArray:
-  - {fileID: 102900000, guid: aaf39605803354571856b5fd4ba27ffd, type: 3}
-  - {fileID: 102900000, guid: 6248bc3fdc0ba49c2bb753d03f5732c1, type: 3}
-  - {fileID: 102900000, guid: 980745a3c41884637899004a9d1cfc9d, type: 3}
-  - {fileID: 102900000, guid: 34eef74c73fab4149898be10138b2180, type: 3}
-  - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
-  - {fileID: 102900000, guid: 07be5e9a521694426a55230a2e9531ba, type: 3}
-  - {fileID: 102900000, guid: 5e113ac9b1bd548079d22f99759a5c99, type: 3}
-  - {fileID: 102900000, guid: 63daa444f529abd47a596c65ef2717d1, type: 3}
-  - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
-  - {fileID: 102900000, guid: deaf0cd1235a3409384df77ce5aa6be3, type: 3}
-  - {fileID: 102900000, guid: 22b05f5b2ff8345eeb9fd03bf2d74ea6, type: 3}
-  - {fileID: 102900000, guid: a2c8de6976c324a52b6cdbb295427ba3, type: 3}
-  - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
-  - {fileID: 102900000, guid: 2f46540f266ff40e580311471fb537cc, type: 3}
-  - {fileID: 102900000, guid: 9dddccc8b4e54425d953e0b8168b5d29, type: 3}
-  - {fileID: 102900000, guid: 0c079340725b53d43b8795e972f216a6, type: 3}
-  - {fileID: 102900000, guid: 4197831f4cfd2a941bfe796efc41daf8, type: 3}
-  - {fileID: 102900000, guid: 6b0f2990959ba4082aa42307f2a29eff, type: 3}
-  - {fileID: 102900000, guid: 9cfc699a0c26d43bf82250f6b0153551, type: 3}
+  - LogoStart
+  - Intro
+  - ShowerCycle1
+  - CleaningRoomCycle1
+  - Texting
+  - ShoppingCycle1
+  - ShowerCycle2
+  - CleaningRoomCycle2
+  - Texting
+  - ShoppingCycle2
+  - ShowerCycle3
+  - CleaningRoomCycle3
+  - Texting
+  - ShoppingCycle3
+  - ShowerCycle4
+  - CleaningRoomCycle4
+  - Texting
+  - ShoppingCycle4
   textingSceneStage: 0
   cursorPrefab: {fileID: 1238479118343186, guid: 7622f09ef7cce49d3b044941489d91ea,
     type: 2}
@@ -192,6 +191,7 @@ MonoBehaviour:
   FADE_IN_TIME: 0.5
   FADE_OUT_TIME: 0.5
   backgroundMusicList:
+  - {fileID: 8300000, guid: f38097789a05d4282a57f62e74fa6748, type: 3}
   - {fileID: 8300000, guid: 772db22c961ad40a0a8379a90d2148df, type: 3}
   - {fileID: 8300000, guid: dfcbed0473b2c4785b37adf50fc3fa47, type: 3}
   - {fileID: 8300000, guid: 8f2ab1fc969c84ed78e4bbf87c431356, type: 3}
