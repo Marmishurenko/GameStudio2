@@ -24200,6 +24200,16 @@ Prefab:
       propertyPath: txt
       value: 
       objectReference: {fileID: 510009366}
+    - target: {fileID: 61539308096350878, guid: db1f5a3c05ef647cabf411814f1bd335,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0.9163201
+      objectReference: {fileID: 0}
+    - target: {fileID: 61539308096350878, guid: db1f5a3c05ef647cabf411814f1bd335,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 7.8036466
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db1f5a3c05ef647cabf411814f1bd335, type: 2}
   m_IsPrefabParent: 0

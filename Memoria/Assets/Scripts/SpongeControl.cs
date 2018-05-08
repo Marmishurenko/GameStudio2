@@ -15,7 +15,8 @@ public class SpongeControl : MonoBehaviour {
 
 	private AudioSource audioSource; 
 	public AudioClip[] bucketEnter; 
-	public AudioClip bucketEnterClip; 
+	public AudioClip bucketEnterClip;
+    public AudioSource rubSound;
 
 	
     // Use this for initialization
