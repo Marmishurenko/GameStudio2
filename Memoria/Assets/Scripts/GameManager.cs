@@ -156,6 +156,8 @@ public class GameManager : MonoBehaviour {
             || SceneManager.GetActiveScene().name == "Texting") {
             cursorController.spriteOffset = 2;
             cursorController.transform.localScale = Vector3.one * 0.6f;
+        } else if (SceneManager.GetActiveScene().name == "EndCredits") {
+            cursorController.Hide();
         } else {
             cursorController.spriteOffset = 0;
             cursorController.transform.localScale = Vector3.one * 0.45f;

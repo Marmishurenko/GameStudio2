@@ -988,6 +988,9 @@ MonoBehaviour:
   - do you hear?
   - "I\u2019m here"
   - but I hear silence
+  cycleFour:
+  - everything will be allright
+  - ' there is hope'
 --- !u!1 &1051057335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,6 +1157,7 @@ MonoBehaviour:
   - /G1C/Y3C/T/G3C/Y3C/T/G4B/Y3C/T/G5A/T/Y1A/E
   - /G1C/Y3*C/T/G3*C/Y3*C/T/G3*C/T/Y3*C/T/G3A/Y2A/E
   - /4/T/Y2B/T/Y4C/T/Y4C/T/Y4C/E
+  - /G3C/T/Y3C/T/E
   messagePrefab: {fileID: 1366178213642866, guid: 9e01765d19cd80c489e0fc6e57fcd0e2,
     type: 2}
   messageWindow: {fileID: 1375683660}
