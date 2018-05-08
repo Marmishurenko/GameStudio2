@@ -625,6 +625,7 @@ GameObject:
   - component: {fileID: 296330890}
   - component: {fileID: 296330889}
   - component: {fileID: 296330888}
+  - component: {fileID: 296330893}
   m_Layer: 0
   m_Name: Bin
   m_TagString: Untagged
@@ -735,6 +736,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &296330893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 296330887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daee52c415f8e4107bdb833f1ebaac57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnBasketEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1674123242}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &706813371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,7 +2176,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b4244c4d1b3c5488c8fcbaad85a8d497, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a7086b3af896147d889c320a73fe8bfc, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

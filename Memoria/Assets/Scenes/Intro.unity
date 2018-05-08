@@ -414,6 +414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137157851}
   - component: {fileID: 137157850}
+  - component: {fileID: 137157852}
   m_Layer: 0
   m_Name: AmericaSound
   m_TagString: Untagged
@@ -432,7 +433,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9e3bd15c19a69438484378e85870653f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.804
+  m_Volume: 0.723
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -514,6 +515,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &137157852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 137157849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1002160353, guid: f7b54ff4a43d4fcf81b4538b678e0bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RoomSize: 0
 --- !u!1 &144468350
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,6 +609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 297685767}
   - component: {fileID: 297685766}
+  - component: {fileID: 297685768}
   m_Layer: 0
   m_Name: BusSound
   m_TagString: Untagged
@@ -614,13 +628,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d37daccd7b1f84667bfa14f8fe33f5d0, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.413
+  m_Volume: 0.429
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 191
+  Priority: 172
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -696,6 +710,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!169 &297685768
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297685765}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.49986362
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &349041562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,13 +1306,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dd01f53aa6710410eaab7e373bbeb10d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.766
+  m_Volume: 0.588
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 152
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1435,6 +1470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 817358214}
   - component: {fileID: 817358213}
+  - component: {fileID: 817358215}
   m_Layer: 0
   m_Name: MomFadingSound
   m_TagString: Untagged
@@ -1453,13 +1489,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 56832effbf9264f089f7e701c9f17b6f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.364
+  m_Volume: 0.184
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 173
+  Priority: 191
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1535,6 +1571,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &817358215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817358212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1002160353, guid: f7b54ff4a43d4fcf81b4538b678e0bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RoomSize: 2
 --- !u!1 &822922019
 GameObject:
   m_ObjectHideFlags: 0
@@ -3139,6 +3187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080981423}
   - component: {fileID: 2080981422}
+  - component: {fileID: 2080981424}
   m_Layer: 0
   m_Name: PiggyBankSound
   m_TagString: Untagged
@@ -3157,18 +3206,18 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9ca524ea7053040c7a562057bfd0daac, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.647
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 113
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -3207,7 +3256,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 0.3861111
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3239,6 +3288,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!168 &2080981424
+AudioEchoFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2080981421}
+  m_Enabled: 1
+  m_Delay: 10
+  m_DecayRatio: 0.2
+  m_WetMix: 0.61
+  m_DryMix: 1
 --- !u!1 &2128223554
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,6 +3381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2140832317}
   - component: {fileID: 2140832316}
+  - component: {fileID: 2140832318}
   m_Layer: 0
   m_Name: Wind1Sound
   m_TagString: Untagged
@@ -3339,13 +3400,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0a491838aff764f6bb298a6f88ffff88, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.82
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 153
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -3421,3 +3482,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!165 &2140832318
+AudioHighPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2140832315}
+  m_Enabled: 1
+  m_CutoffFrequency: 978.1
+  m_HighpassResonanceQ: 1

@@ -7560,13 +7560,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 227d99f731b91489c98115c4c404496f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.12
+  m_Volume: 0.06
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 182
+  Priority: 206
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -7653,7 +7653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605311ba97ee27040a8702f720c52a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FADE_OUT_TIME: 2
+  FADE_OUT_TIME: 4
 --- !u!1001 &1815879675
 Prefab:
   m_ObjectHideFlags: 0

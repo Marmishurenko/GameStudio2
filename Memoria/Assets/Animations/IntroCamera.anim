@@ -392,7 +392,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3.8333333
+  - time: 3.8666666
     functionName: PlaySound
     data: PiggyBankSound
     objectReferenceParameter: {fileID: 0}

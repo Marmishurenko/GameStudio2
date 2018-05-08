@@ -3764,6 +3764,9 @@ GameObject:
   - component: {fileID: 423525829}
   - component: {fileID: 423525828}
   - component: {fileID: 423525827}
+  - component: {fileID: 423525830}
+  - component: {fileID: 423525831}
+  - component: {fileID: 423525832}
   m_Layer: 0
   m_Name: AuntRubRandomizer
   m_TagString: Untagged
@@ -3800,13 +3803,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.583
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 182
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -3882,6 +3885,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!169 &423525830
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423525826}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 2
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.6314545
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!170 &423525831
+AudioDistortionFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423525826}
+  m_Enabled: 0
+  m_DistortionLevel: 0.05
+--- !u!166 &423525832
+AudioChorusFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423525826}
+  m_Enabled: 1
+  m_DryMix: 0.59
+  m_WetMix1: 0.27
+  m_WetMix2: 0.23
+  m_WetMix3: 0.29
+  m_Delay: 0.1
+  m_Rate: 0.44
+  m_Depth: 0.03
 --- !u!1 &551367908
 GameObject:
   m_ObjectHideFlags: 0
@@ -4110,6 +4156,8 @@ GameObject:
   - component: {fileID: 768840971}
   - component: {fileID: 768840972}
   - component: {fileID: 768840973}
+  - component: {fileID: 768840974}
+  - component: {fileID: 768840975}
   m_Layer: 0
   m_Name: 'BucketEnterRandomizer '
   m_TagString: Untagged
@@ -4141,7 +4189,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.799
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4229,6 +4277,41 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b292ff3c689a447fab6aafe5e9d6cba2, type: 3}
   - {fileID: 8300000, guid: 6792522fba66d47f6891bd55d358529b, type: 3}
   - {fileID: 8300000, guid: 3ffa7fe1f3e6243fe8093faa1d61e7f9, type: 3}
+--- !u!169 &768840974
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768840970}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 2
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.69104546
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!166 &768840975
+AudioChorusFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768840970}
+  m_Enabled: 1
+  m_DryMix: 0.59
+  m_WetMix1: 0.27
+  m_WetMix2: 0.23
+  m_WetMix3: 0.29
+  m_Delay: 0.1
+  m_Rate: 0.44
+  m_Depth: 0.03
 --- !u!1001 &841743315
 Prefab:
   m_ObjectHideFlags: 0
@@ -4618,6 +4701,8 @@ GameObject:
   - component: {fileID: 1207622792}
   - component: {fileID: 1207622793}
   - component: {fileID: 1207622794}
+  - component: {fileID: 1207622795}
+  - component: {fileID: 1207622796}
   m_Layer: 0
   m_Name: SpongeClickRandomizer
   m_TagString: Untagged
@@ -4649,7 +4734,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.637
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4734,6 +4819,41 @@ MonoBehaviour:
   clips:
   - {fileID: 8300000, guid: 66c824b91479b4d94801ea2c3dd0d6cf, type: 3}
   - {fileID: 8300000, guid: 3a157d7e290fe4ad2b47b1d57ba48cd3, type: 3}
+--- !u!169 &1207622795
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207622791}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 2
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.69104546
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!166 &1207622796
+AudioChorusFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207622791}
+  m_Enabled: 1
+  m_DryMix: 0.59
+  m_WetMix1: 0.27
+  m_WetMix2: 0.23
+  m_WetMix3: 0.29
+  m_Delay: 0.1
+  m_Rate: 0.44
+  m_Depth: 0.03
 --- !u!1 &1220505066
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,6 +5147,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   bucketEnter: []
   bucketEnterClip: {fileID: 0}
+  rubSound: {fileID: 0}
 --- !u!50 &1220505073
 Rigidbody2D:
   serializedVersion: 4

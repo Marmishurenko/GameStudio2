@@ -3756,7 +3756,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 66c824b91479b4d94801ea2c3dd0d6cf, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.816
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4084,7 +4084,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.832
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4242,7 +4242,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.799
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4459,7 +4459,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.845
+  m_Volume: 0.783
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5136,6 +5136,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e606c12f721f54d5faeee017738db308, type: 3}
   - {fileID: 8300000, guid: 107fd0576426e43d6b8e2a514d4da93d, type: 3}
   bucketEnterClip: {fileID: 8300000, guid: 1c2fd8a8b5a1d4377a2928c2536185f7, type: 3}
+  rubSound: {fileID: 0}
 --- !u!50 &1220505073
 Rigidbody2D:
   serializedVersion: 4

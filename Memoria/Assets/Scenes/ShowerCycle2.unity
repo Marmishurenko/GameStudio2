@@ -3670,6 +3670,7 @@ GameObject:
   - component: {fileID: 80439005}
   - component: {fileID: 80439004}
   - component: {fileID: 80439006}
+  - component: {fileID: 80439007}
   m_Layer: 0
   m_Name: BucketEnterRandomizer
   m_TagString: Untagged
@@ -3720,7 +3721,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.817
+  m_Volume: 0.36
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3783,6 +3784,27 @@ AudioSource:
     - serializedVersion: 2
       time: 0
       value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!169 &80439007
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80439003}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.8018182
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3947,7 +3969,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 07d3f0fb438ce41bfb278784b1fb9885, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.696
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4056,7 +4078,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 107fd0576426e43d6b8e2a514d4da93d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.837
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4294,6 +4316,7 @@ GameObject:
   - component: {fileID: 1068281784}
   - component: {fileID: 1068281783}
   - component: {fileID: 1068281785}
+  - component: {fileID: 1068281786}
   m_Layer: 0
   m_Name: AuntRubRandomizer
   m_TagString: Untagged
@@ -4343,7 +4366,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.778
+  m_Volume: 0.718
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4406,6 +4429,27 @@ AudioSource:
     - serializedVersion: 2
       time: 0
       value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!169 &1068281786
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1068281782}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.8018182
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -4986,6 +5030,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   bucketEnter: []
   bucketEnterClip: {fileID: 0}
+  rubSound: {fileID: 0}
 --- !u!50 &1220505073
 Rigidbody2D:
   serializedVersion: 4
@@ -5184,6 +5229,7 @@ GameObject:
   - component: {fileID: 1851148830}
   - component: {fileID: 1851148829}
   - component: {fileID: 1851148831}
+  - component: {fileID: 1851148832}
   m_Layer: 0
   m_Name: SpongeClickRandomizer
   m_TagString: Untagged
@@ -5232,7 +5278,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.599
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5295,6 +5341,27 @@ AudioSource:
     - serializedVersion: 2
       time: 0
       value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!169 &1851148832
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1851148828}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.8018182
       inSlope: 0
       outSlope: 0
       tangentMode: 0
