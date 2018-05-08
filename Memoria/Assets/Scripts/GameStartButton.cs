@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class GameStartButton : MonoExtended {
 
     protected override void GameUpdate() {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)) {
             gameManager.LoadTransitionScene();
+            GameObject.Find("StartButtonSound").GetComponent<AudioSource>().Play();
+        }
     }
 }

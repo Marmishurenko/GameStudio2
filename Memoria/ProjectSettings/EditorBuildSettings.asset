@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/LogoStart.unity
     guid: aaf39605803354571856b5fd4ba27ffd
   - enabled: 1
+    path: Assets/Scenes/Transition.unity
+    guid: 792e371cc56ecff4ebe2705f55597f1b
+  - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 6248bc3fdc0ba49c2bb753d03f5732c1
-  - enabled: 1
-    path: Assets/Scenes/main.unity
-    guid: c712d4fb27a24954fba5a86ce1323351
   - enabled: 1
     path: Assets/Scenes/CleaningRoomCycle1.unity
     guid: 34eef74c73fab4149898be10138b2180
@@ -37,7 +37,7 @@ EditorBuildSettings:
     guid: 2f46540f266ff40e580311471fb537cc
   - enabled: 1
     path: Assets/Scenes/ShoppingCycle4.unity
-    guid: 6b0f2990959ba4082aa42307f2a29eff
+    guid: 04afa795eea1448bf858b12715e55a78
   - enabled: 1
     path: Assets/Scenes/ShowerCycle1.unity
     guid: 980745a3c41884637899004a9d1cfc9d
@@ -53,9 +53,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Texting.unity
     guid: 4197831f4cfd2a941bfe796efc41daf8
-  - enabled: 1
-    path: Assets/Scenes/Transition.unity
-    guid: 792e371cc56ecff4ebe2705f55597f1b
   - enabled: 1
     path: Assets/Scenes/EndCredits.unity
     guid: 9cfc699a0c26d43bf82250f6b0153551

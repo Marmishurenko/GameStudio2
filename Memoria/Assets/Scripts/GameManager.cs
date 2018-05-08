@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,11 +12,11 @@ public class GameManager : MonoBehaviour {
     [Tooltip("Keeps track of the progress of the game.")]
     public int gameStage;
 
-    public SceneAsset transition;
+    public string transition;
 
     [Tooltip("The order of execution of game scenes.")]
     [SerializeField]
-    SceneAsset[] sceneArray;
+    string[] sceneArray;
 
     public int textingSceneStage;
 
@@ -49,6 +48,10 @@ public class GameManager : MonoBehaviour {
         gameState = GAME_STATE.RUNNING;
         gameStage = 0;
         textingSceneStage = 0;
+
+        gameObject.GetComponent<AudioSource>().clip = backgroundMusicList[0];
+        gameObject.GetComponent<AudioSource>().volume = 1;
+        gameObject.GetComponent<AudioSource>().Play();
 
         SceneManager.sceneLoaded += FadeIn;
     }
@@ -87,7 +90,7 @@ public class GameManager : MonoBehaviour {
         gameStage++;
         if (gameStage == sceneArray.Length)
             gameStage = 0;
-        SceneManager.LoadScene(transition.name);
+        SceneManager.LoadScene(transition);
         if (cursorController != null)
             cursorController.Hide();
         gameState = GAME_STATE.RUNNING;
@@ -95,16 +98,16 @@ public class GameManager : MonoBehaviour {
         // Change bg music
         switch (gameStage) {
             case 2:
-                StartCoroutine(SwitchBgMusic(0));
-                break;
-            case 6:
                 StartCoroutine(SwitchBgMusic(1));
                 break;
-            case 10:
+            case 6:
                 StartCoroutine(SwitchBgMusic(2));
                 break;
-            case 14:
+            case 10:
                 StartCoroutine(SwitchBgMusic(3));
+                break;
+            case 14:
+                StartCoroutine(SwitchBgMusic(4));
                 break;
         }
     }
@@ -141,7 +144,7 @@ public class GameManager : MonoBehaviour {
         }
 
         // Load
-        SceneManager.LoadScene(sceneArray[gameStage].name);
+        SceneManager.LoadScene(sceneArray[gameStage]);
         gameState = GAME_STATE.RUNNING;
         if (cursorController != null)
             cursorController.Show();
