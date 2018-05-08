@@ -18,11 +18,11 @@ public class TransitionManager : MonoExtended {
 
     IEnumerator Transition() {
         // Set text
-        string s = "";
+        string text = "";
         if (gameManager.gameStage < textList.Count)
-            s = textList[gameManager.gameStage].Replace("|", "\n");
-        textUI.SetText(s);
-
+            text = textList[gameManager.gameStage].Replace("|", "\n");
+        textUI.SetText(text);
+        
         // Set yumi hair
         int gameCycle = -1;
         switch (gameManager.gameStage) {
@@ -40,22 +40,22 @@ public class TransitionManager : MonoExtended {
         if (gameCycle != -1) {
             foreach (Transform trans in yumiHair)
                 trans.gameObject.SetActive(true);
+            // Have text and hair to show
+            yumiHair.GetChild(0).GetComponent<SpriteRenderer>().sprite = yumiHair.GetComponent<YumiHairs>().backHairs[gameCycle - 1];
+            yumiHair.GetChild(1).GetComponent<SpriteRenderer>().sprite = yumiHair.GetComponent<YumiHairs>().backHairs[gameCycle];
+            yumiHair.GetChild(3).GetComponent<SpriteRenderer>().sprite = yumiHair.GetComponent<YumiHairs>().frontHairs[gameCycle - 1];
+            yumiHair.GetChild(4).GetComponent<SpriteRenderer>().sprite = yumiHair.GetComponent<YumiHairs>().frontHairs[gameCycle];
         }
 
         yield return new WaitForSeconds(0.5f);
 
         // No text to show
-        if (textUI.text.Length == 0) {
+        if (text.Length == 0) {
             yield return new WaitForSeconds(0.5f);
             gameManager.LoadNextGameScene();
             yield break;
         }
 
-        // Have text and hair to show
-        yumiHair.GetChild(0).GetComponent<SpriteRenderer>().sprite = yumiHair.GetComponent<YumiHairs>().backHairs[gameCycle - 1];
-        yumiHair.GetChild(1).GetComponent<SpriteRenderer>().sprite = yumiHair.GetComponent<YumiHairs>().backHairs[gameCycle];
-        yumiHair.GetChild(3).GetComponent<SpriteRenderer>().sprite = yumiHair.GetComponent<YumiHairs>().frontHairs[gameCycle - 1];
-        yumiHair.GetChild(4).GetComponent<SpriteRenderer>().sprite = yumiHair.GetComponent<YumiHairs>().frontHairs[gameCycle];
         Color c = new Color(255, 255, 255, 0);
         while (c.a < 1) {
             c.a += 1 / HAIR_GROW_TIME * Time.deltaTime;
