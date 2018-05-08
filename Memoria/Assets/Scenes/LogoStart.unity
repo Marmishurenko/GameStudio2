@@ -7560,13 +7560,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 227d99f731b91489c98115c4c404496f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.651
+  m_Volume: 0.12
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 182
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -7661,6 +7661,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.size
+      value: 19
+      objectReference: {fileID: 0}
     - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7692,6 +7697,11 @@ Prefab:
     - target: {fileID: 4073938715553946, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114662561642555508, guid: b6750a1955ce9694d82c0d918481f0e6,
+        type: 2}
+      propertyPath: sceneArray.Array.data[18]
+      value: EndCredits
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b6750a1955ce9694d82c0d918481f0e6, type: 2}
@@ -8080,13 +8090,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 67fdea9aaf4fe4ccdb527c75c66ad302, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.308
+  m_Volume: 0.63
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 205
+  Priority: 120
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -8118,7 +8128,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 0.456
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -8130,7 +8140,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 0.38055557
       inSlope: 0
       outSlope: 0
       tangentMode: 0
