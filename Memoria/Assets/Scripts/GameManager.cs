@@ -151,6 +151,7 @@ public class GameManager : MonoBehaviour {
     }
 
     void FadeIn(Scene scene, LoadSceneMode mode) {
+        transform.position = Vector3.zero;
         if (SceneManager.GetActiveScene().name == "LogoStart"
             || SceneManager.GetActiveScene().name == "Intro"
             || SceneManager.GetActiveScene().name == "Texting") {
@@ -175,12 +176,6 @@ public class GameManager : MonoBehaviour {
             yield return null;
         }
     }
-    public void RunLogoScene() {
-
-        Destroy(cursorPrefab);
-        LoadNextGameScene();
-    }
-
 }
 
 

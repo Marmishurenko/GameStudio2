@@ -42,9 +42,11 @@ public class TransitionManager : MonoExtended {
                 trans.gameObject.SetActive(true);
         }
 
+        yield return new WaitForSeconds(0.5f);
+
         // No text to show
         if (textUI.text.Length == 0) {
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
             gameManager.LoadNextGameScene();
             yield break;
         }

@@ -46,7 +46,6 @@ public class CursorController : MonoExtended {
         if (delta.magnitude > cursorSpeedCap)
             delta = delta.normalized * cursorSpeedCap;
         cursorTargetPosition += delta;
-        Vector2 cameraPos = (Vector2)Camera.main.transform.position;
         cursorPosition = Vector3.Lerp(cursorPosition, cursorTargetPosition, cursorSpeedLerp);
         transform.position = cursorPosition + (Vector2)Camera.main.transform.position;
 
