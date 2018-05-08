@@ -414,7 +414,6 @@ GameObject:
   m_Component:
   - component: {fileID: 137157851}
   - component: {fileID: 137157850}
-  - component: {fileID: 137157852}
   m_Layer: 0
   m_Name: AmericaSound
   m_TagString: Untagged
@@ -515,18 +514,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &137157852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 137157849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1002160353, guid: f7b54ff4a43d4fcf81b4538b678e0bcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RoomSize: 0
 --- !u!1 &144468350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,7 +1457,6 @@ GameObject:
   m_Component:
   - component: {fileID: 817358214}
   - component: {fileID: 817358213}
-  - component: {fileID: 817358215}
   m_Layer: 0
   m_Name: MomFadingSound
   m_TagString: Untagged
@@ -1571,18 +1557,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &817358215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 817358212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1002160353, guid: f7b54ff4a43d4fcf81b4538b678e0bcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RoomSize: 2
 --- !u!1 &822922019
 GameObject:
   m_ObjectHideFlags: 0
