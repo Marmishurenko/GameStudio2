@@ -4495,8 +4495,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 5.75
+  m_fontSizeBase: 5.75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5027,6 +5027,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   bucketEnter: []
   bucketEnterClip: {fileID: 0}
+  rubSound: {fileID: 0}
 --- !u!50 &1220505073
 Rigidbody2D:
   serializedVersion: 4
