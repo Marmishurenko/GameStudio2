@@ -151,11 +151,14 @@ public class GameManager : MonoBehaviour {
     }
 
     void FadeIn(Scene scene, LoadSceneMode mode) {
+        transform.position = Vector3.zero;
         if (SceneManager.GetActiveScene().name == "LogoStart"
             || SceneManager.GetActiveScene().name == "Intro"
             || SceneManager.GetActiveScene().name == "Texting") {
             cursorController.spriteOffset = 2;
             cursorController.transform.localScale = Vector3.one * 0.6f;
+        } else if (SceneManager.GetActiveScene().name == "EndCredits") {
+            cursorController.Hide();
         } else {
             cursorController.spriteOffset = 0;
             cursorController.transform.localScale = Vector3.one * 0.45f;
@@ -173,12 +176,6 @@ public class GameManager : MonoBehaviour {
             yield return null;
         }
     }
-    public void RunLogoScene() {
-
-        Destroy(cursorPrefab);
-        LoadNextGameScene();
-    }
-
 }
 
 

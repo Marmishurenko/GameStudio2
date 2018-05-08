@@ -12,6 +12,7 @@ public class TextingNarrative : MonoExtended {
     [SerializeField] string[] cycleOne;
     [SerializeField] string[] cycleTwo;
     [SerializeField] string[] cycleThree;
+    [SerializeField] string[] cycleFour;
 
     Text text;
     int lineIndex = -1;
@@ -32,6 +33,9 @@ public class TextingNarrative : MonoExtended {
                 break;
             case 2:
                 lines = cycleThree;
+                break;
+            case 3:
+                lines = cycleFour;
                 break;
         }
     }

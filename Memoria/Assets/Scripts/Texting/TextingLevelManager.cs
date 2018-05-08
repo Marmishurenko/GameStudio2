@@ -13,6 +13,7 @@ public class TextingLevelManager : MonoExtended {
     [SerializeField] TextingNarrative narrative;
     [SerializeField] TextingBackButton backButton;
     [SerializeField] Transform overlayEffect;
+    [SerializeField] AudioSource[] bubbleAudio;
 
     string[] conversationScripts;
 
@@ -25,7 +26,8 @@ public class TextingLevelManager : MonoExtended {
         messageIndex = 0;
         StartCoroutine("NextMessage");
 
-        overlayEffect.GetChild(gameManager.textingSceneStage).gameObject.SetActive(true);
+        for (int i = 0; i < gameManager.textingSceneStage; i++)
+            overlayEffect.GetChild(i).gameObject.SetActive(true);
     }
 
     IEnumerator NextMessage() {
@@ -40,10 +42,13 @@ public class TextingLevelManager : MonoExtended {
                 yield return new WaitForSeconds(GetWaitingTime());
                 if (messageScript.Length > 0) {
                     GameObject newMessage = Instantiate(messagePrefab, messageWindow.transform);
-                    if (messageScript[0] != '*')
+                    if (messageScript[0] != '*') {
                         newMessage.GetComponent<Message>().Init(false, 'C' - messageScript[0]);
-                    else
+                        bubbleAudio['C' - messageScript[0]].Play();
+                    } else {
                         newMessage.GetComponent<Message>().Init(false, 'C' - messageScript[1] + 4);
+                        bubbleAudio['C' - messageScript[1]].Play();
+                    }
                 }
                 StartCoroutine("NextMessage");
                 break;

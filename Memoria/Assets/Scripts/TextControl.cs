@@ -23,7 +23,6 @@ public class TextControl : MonoExtended {
 
     // Update is called once per frame
     protected override void GameUpdate() {
-        print(textCounter);
         yumiText.SetText(stringsTexts[textCounter]);
         //print(textCounter);
         if (textCounter == stringsTexts.Length - 1) {

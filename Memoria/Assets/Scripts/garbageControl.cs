@@ -17,8 +17,6 @@ public class garbageControl : MonoExtended {
         if (garbageCounter == 5) {
             gameManager.LoadTransitionScene();
         }
-        print(garbageCounter);
-
     }
 
     void OnTriggerEnter2D(Collider2D other) {

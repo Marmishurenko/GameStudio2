@@ -184,11 +184,12 @@ MonoBehaviour:
   - CleaningRoomCycle4
   - Texting
   - ShoppingCycle4
+  - EndCredits
   textingSceneStage: 0
   cursorPrefab: {fileID: 1238479118343186, guid: 7622f09ef7cce49d3b044941489d91ea,
     type: 2}
   blackScreen: {fileID: 212613330979767924}
-  FADE_IN_TIME: 0.5
+  FADE_IN_TIME: 1
   FADE_OUT_TIME: 0.5
   backgroundMusicList:
   - {fileID: 8300000, guid: f38097789a05d4282a57f62e74fa6748, type: 3}

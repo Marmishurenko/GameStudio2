@@ -9,6 +9,8 @@ public class GameStartButton : MonoExtended {
         if (Input.GetMouseButtonDown(0)) {
             gameManager.LoadTransitionScene();
             GameObject.Find("StartButtonSound").GetComponent<AudioSource>().Play();
+            GameObject.Find("StartButtonSound").GetComponent<AudioFadeOut>().FadeOut();
+            GameObject.Find("WindEffect").GetComponent<AudioFadeOut>().FadeOut();
         }
     }
 }
