@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PostProcessing;
 using UnityEngine.SceneManagement;
 
 // General game manager which exists through the whole life cycle of the game
@@ -23,6 +24,10 @@ public class GameManager : MonoBehaviour {
     [SerializeField] GameObject cursorPrefab;
 
     [SerializeField] SpriteRenderer blackScreen;
+    [SerializeField] PostProcessingProfile bwProfile;
+     float satDecrease = 0.025f;
+    Camera cam;
+
     [SerializeField] float FADE_IN_TIME;
     [SerializeField] float FADE_OUT_TIME;
 
@@ -36,7 +41,7 @@ public class GameManager : MonoBehaviour {
             Destroy(gameObject);
             return;
         }
-
+       
         GameObject cursor = Instantiate(cursorPrefab);
         cursorController = cursor.GetComponent<CursorController>();
         cursorController.spriteOffset = 2;
@@ -53,10 +58,27 @@ public class GameManager : MonoBehaviour {
         gameObject.GetComponent<AudioSource>().volume = 1;
         gameObject.GetComponent<AudioSource>().Play();
 
-        SceneManager.sceneLoaded += FadeIn;
+        //Resetting post-processing profile
+        ColorGradingModel.Settings saturationSettings = bwProfile.colorGrading.settings;
+        saturationSettings.basic.saturation = 1.05f;
+        bwProfile.colorGrading.settings = saturationSettings;
+
+
     }
 
-    void Update() {
+	private void OnEnable()
+	{
+        SceneManager.sceneLoaded += FadeIn;
+        SceneManager.sceneLoaded += AssignEffectsAndChangeAtRuntime;
+	}
+
+	private void OnDisable()
+	{
+        SceneManager.sceneLoaded -= FadeIn;
+        SceneManager.sceneLoaded -= AssignEffectsAndChangeAtRuntime;
+	}
+
+	void Update() {
         if (Input.GetKeyDown(KeyCode.R)) {
             gameStage = -1;
             LoadTransitionScene();
@@ -69,6 +91,7 @@ public class GameManager : MonoBehaviour {
 
     // Call this to end current scene
     public virtual void LoadTransitionScene() {
+        
         StartCoroutine(EnterTransitionScene());
     }
 
@@ -88,8 +111,8 @@ public class GameManager : MonoBehaviour {
 
         // Load
         gameStage++;
-        if (gameStage == sceneArray.Length)
-            gameStage = 0;
+       
+      
         SceneManager.LoadScene(transition);
         if (cursorController != null)
             cursorController.Hide();
@@ -127,9 +150,14 @@ public class GameManager : MonoBehaviour {
 
     // Call this to start the next scene
     public void LoadNextGameScene() {
+       
         StartCoroutine(EnterNextGameScene());
-    }
 
+    }
+    void CreateTestObj(){
+        GameObject obj = new GameObject();
+        obj.name = "My test object";
+    }
     IEnumerator EnterNextGameScene() {
         gameState = GAME_STATE.PAUSED;
 
@@ -146,6 +174,7 @@ public class GameManager : MonoBehaviour {
         // Load
         SceneManager.LoadScene(sceneArray[gameStage]);
         gameState = GAME_STATE.RUNNING;
+
         if (cursorController != null)
             cursorController.Show();
     }
@@ -176,6 +205,25 @@ public class GameManager : MonoBehaviour {
             yield return null;
         }
     }
+
+
+    public void AssignEffectsAndChangeAtRuntime(Scene scene, LoadSceneMode mode){
+        //assigning post-processing effects 
+        Camera cam1 = Camera.main;
+        cam1.gameObject.AddComponent(typeof(PostProcessingBehaviour));
+        PostProcessingBehaviour ppb = cam1.gameObject.GetComponent<PostProcessingBehaviour>();
+        ppb.profile = bwProfile;
+
+        //change the saturation in the temporary settings variable
+        ColorGradingModel.Settings saturationSettings = bwProfile.colorGrading.settings;
+        saturationSettings.basic.saturation -= satDecrease;
+
+        //set the sat settings in the actual profile to the temp settings with the changed value
+        bwProfile.colorGrading.settings = saturationSettings;
+
+     
+    }
+
 }
 
 
