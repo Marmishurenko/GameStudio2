@@ -154,10 +154,7 @@ public class GameManager : MonoBehaviour {
         StartCoroutine(EnterNextGameScene());
 
     }
-    void CreateTestObj(){
-        GameObject obj = new GameObject();
-        obj.name = "My test object";
-    }
+   
     IEnumerator EnterNextGameScene() {
         gameState = GAME_STATE.PAUSED;
 
@@ -221,7 +218,6 @@ public class GameManager : MonoBehaviour {
         //set the sat settings in the actual profile to the temp settings with the changed value
         bwProfile.colorGrading.settings = saturationSettings;
 
-     
     }
 
 }
