@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour {
 
     [SerializeField] SpriteRenderer blackScreen;
     [SerializeField] PostProcessingProfile bwProfile;
-     float satDecrease = 0.025f;
+    float satDecrease = 0.025f;
     Camera cam;
 
     [SerializeField] float FADE_IN_TIME;
@@ -66,19 +66,19 @@ public class GameManager : MonoBehaviour {
 
     }
 
-	private void OnEnable()
-	{
+    private void OnEnable()
+    {
         SceneManager.sceneLoaded += FadeIn;
         SceneManager.sceneLoaded += AssignEffectsAndChangeAtRuntime;
-	}
+    }
 
-	private void OnDisable()
-	{
+    private void OnDisable()
+    {
         SceneManager.sceneLoaded -= FadeIn;
         SceneManager.sceneLoaded -= AssignEffectsAndChangeAtRuntime;
-	}
+    }
 
-	void Update() {
+    void Update() {
         if (Input.GetKeyDown(KeyCode.R)) {
             gameStage = -1;
             LoadTransitionScene();
@@ -205,18 +205,21 @@ public class GameManager : MonoBehaviour {
 
 
     public void AssignEffectsAndChangeAtRuntime(Scene scene, LoadSceneMode mode){
-        //assigning post-processing effects 
-        Camera cam1 = Camera.main;
-        cam1.gameObject.AddComponent(typeof(PostProcessingBehaviour));
-        PostProcessingBehaviour ppb = cam1.gameObject.GetComponent<PostProcessingBehaviour>();
-        ppb.profile = bwProfile;
+        if (gameStage != 18)
+        {
+            //assigning post-processing effects 
+            Camera cam1 = Camera.main;
+            cam1.gameObject.AddComponent(typeof(PostProcessingBehaviour));
+            PostProcessingBehaviour ppb = cam1.gameObject.GetComponent<PostProcessingBehaviour>();
+            ppb.profile = bwProfile;
 
-        //change the saturation in the temporary settings variable
-        ColorGradingModel.Settings saturationSettings = bwProfile.colorGrading.settings;
-        saturationSettings.basic.saturation -= satDecrease;
+            //change the saturation in the temporary settings variable
+            ColorGradingModel.Settings saturationSettings = bwProfile.colorGrading.settings;
+            saturationSettings.basic.saturation -= satDecrease;
 
-        //set the sat settings in the actual profile to the temp settings with the changed value
-        bwProfile.colorGrading.settings = saturationSettings;
+            //set the sat settings in the actual profile to the temp settings with the changed value
+            bwProfile.colorGrading.settings = saturationSettings;
+        }
 
     }
 
