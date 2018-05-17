@@ -386,20 +386,13 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 2.1333334
-    functionName: WaitForClick
+    functionName: Pause
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3.8666666
-    functionName: PlaySound
-    data: PiggyBankSound
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 4.9
+  - time: 4.866667
     functionName: WaitForClick
     data: 
     objectReferenceParameter: {fileID: 0}

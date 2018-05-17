@@ -38,6 +38,7 @@ public class IntroManager : MonoExtended {
                     NextStage();
                 }
                 break;
+            case 2:
             case 3:
                 if (isWaitForClick && Input.GetMouseButtonDown(0)) {
                     scene4Anim.enabled = true;
@@ -60,7 +61,6 @@ public class IntroManager : MonoExtended {
         isWaitForClick = false;
         introStage++;
         cameraAnim.enabled = true;
-        Debug.Log(introStage);
     }
 
     IEnumerator BusFadeOut() {
