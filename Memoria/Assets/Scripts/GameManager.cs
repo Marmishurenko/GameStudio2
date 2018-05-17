@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour {
 
         //Resetting post-processing profile
         ColorGradingModel.Settings saturationSettings = bwProfile.colorGrading.settings;
-        saturationSettings.basic.saturation = 1.05f;
+        saturationSettings.basic.saturation = 1f;
         bwProfile.colorGrading.settings = saturationSettings;
 
 
