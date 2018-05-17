@@ -775,7 +775,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "it didn\u2019t take long to remember"
+  m_text: "who said letting go isn\u2019t easy"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
@@ -1526,7 +1526,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: to contain all this, to contain me
+  m_text: under pressure
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
@@ -1723,7 +1723,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: on the plane, the east seemed so sweet
+  m_text: pressure to perform for others
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
@@ -1966,7 +1966,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: space, too big but too small
+  m_text: not satisfied with the shape
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
@@ -2290,7 +2290,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: the world stretched out
+  m_text: hold the weight in
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da62e0ec15cfb4713828111265072764, type: 2}
   m_sharedMaterial: {fileID: 21984579739685570, guid: da62e0ec15cfb4713828111265072764,
